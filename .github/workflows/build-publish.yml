@@ -21,12 +21,29 @@ jobs:
     steps:
       - name: Checkout this repo
         uses: actions/checkout@v3
+      - name: Get date
+        id: date
+        run: echo "::set-output name=date::$(date + '%Y-%m-%d')"
+      - name: Cache parsed markdown files per day
+        uses: actions/cache@v3
+        id: cache-md
+        with:
+          path: '**.md'
+          key: ${{ runner.os }}-${{ steps.date.outputs.date }}-${{ hashFiles('**/lockfiles') }}
+      - name: Cache ruby bundle
+        uses: actions/cache@v3
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
       - name: Checkout sort-awesome-lists repo
         run: git clone https://github.com/kvnxiao/sort-awesome-lists
       - name: Build sort-awesome-lists binary
         uses: actions/setup-go@v3
       - run: cd sort-awesome-lists && go build -o sal-cmd main.go
       - name: Parse lists in lists.conf and generate sorted versions
+        if: steps.cache-md.output.cache-hit != 'true'
         run: |
           cat lists.conf | while read line || [[ -n $line ]];
           do
