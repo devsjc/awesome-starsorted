@@ -19,9 +19,7 @@ jobs:
         run: git clone https://github.com/kvnxiao/sort-awesome-lists
       - name: Build sort-awesome-lists
         uses: actions/setup-go@v3
-        with:
-          go-version-file: 'sort-awesome-lists/go.mod'
-      - run: go build -o sort-awesome-lists sort-awesome-lists/main.go
+      - run: cd sort-awesome-lists && go build -o sal-cmd main.go
       - run: ls -al
       - name: Build lists
         run: |
