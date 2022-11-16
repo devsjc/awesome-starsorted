@@ -5,13 +5,19 @@ on:
     branches: main
   schedule:
     - cron:  '30 3 * * *'
+    
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: 'write'
     steps:
       - name: Checkout this repo
         uses: actions/checkout@v3
@@ -31,16 +37,15 @@ jobs:
                ./sort-awesome-lists/sal-cmd -t=${{ secrets.GITHUB_TOKEN }} -o=${key}.md ${value}
              done
           done
+      - name: Setup Pages
+        uses: actions/configure-pages@v2
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
-      - name: Create pages artifact
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
           
   publish:
     runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
     needs: build
     environment:
       name: github-pages
@@ -49,5 +54,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
-      
-    
