@@ -16,12 +16,12 @@ jobs:
       - name: Checkout this repo
         uses: actions/checkout@v3
       - name: Checkout sort-awesome-lists repo
-        run: git clone https://github.com/kvnxiao/sort-awesome-lists .
+        run: git clone https://github.com/kvnxiao/sort-awesome-lists
       - name: Build sort-awesome-lists
         uses: actions/setup-go@v3
         with:
-          go-version-file: 'go.mod'
-      - run: go build -o sort-awesome-lists main.go
+          go-version-file: 'sort-awesome-lists/go.mod'
+      - run: go build -o sort-awesome-lists sort-awesome-lists/main.go
       - run: ls -al
       - name: Build lists
         run: |
