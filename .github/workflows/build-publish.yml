@@ -4,12 +4,12 @@ on:
   push:
     branches: main
   schedule:
-    - cron:  '30 3 * * *'  
-   
+    - cron:  '30 3 * * *'
+
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     permissions:
       contents: 'write'
     steps:
@@ -32,4 +32,23 @@ jobs:
                ./sort-awesome-lists/sal-cmd -t=${{ secrets.GITHUB_TOKEN }} -o=docs/${key}.md ${value}
              done
           done
-          ls -al docs
+      - name: Create pages artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: docs
+          
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
+      
+    
