@@ -1,0 +1,36 @@
+name: Build, Publish
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron:  '30 3 * * *'  
+   
+
+jobs:
+  deploy:
+    runs-on: ubuntu-22.04
+    container: golang:1.19.3
+    permissions:
+      contents: 'write'
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    steps:
+      - name: Checkout sort-awesome-lists repo
+        uses: actions/checkout@v3
+        with:
+          repository: 'https://github.com/kvnxiao/sort-awesome-lists'
+      - name: Build sort-awesome-lists
+        run: |
+          go build -o sort-awesome-lists main.go
+      - name: Checkout this repo
+        uses: actions/checkout@v3
+      - name: Build lists
+        run: |
+          cat lists.conf | while read line || [[ -n $line ]];
+          do
+             [[ ${line//[[:space:]]/} =~ ^#.* || -z "$line" ]] && continue
+             echo $line | tr "=" "\n" | while read -r key; do
+             read -r value
+               echo "key: ${key} and value: ${value}";
+             done
+          done
