@@ -15,10 +15,6 @@ jobs:
     steps:
       - name: Checkout this repo
         uses: actions/checkout@v3
-      - name: Setup Pages
-        uses: actions/configure-pages@v2
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
       - name: Checkout sort-awesome-lists repo
         run: git clone https://github.com/kvnxiao/sort-awesome-lists
       - name: Build sort-awesome-lists binary
@@ -32,9 +28,20 @@ jobs:
              echo $line | tr "=" "\n" | while read -r key; do
              read -r value
                echo "Sorting ${key} at ${value}";
-               ./sort-awesome-lists/sal-cmd -t=${{ secrets.GITHUB_TOKEN }} -o=_site/${key}.md ${value}
+               ./sort-awesome-lists/sal-cmd -t=${{ secrets.GITHUB_TOKEN }} -o=${key}.md ${value}
+               cat << EOF
+               ---
+               layout: page
+               title: ${key}
+               permalink: /${key}
+               ---
+               EOF | cat - ${key}.md > temp && mv temp ${key}.md
              done
           done
+      - name: Setup Pages
+        uses: actions/configure-pages@v2
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
       - name: Create pages artifact
         uses: actions/upload-pages-artifact@v1
           
