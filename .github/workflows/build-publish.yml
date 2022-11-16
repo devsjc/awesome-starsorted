@@ -9,22 +9,19 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-22.04
-    container: golang:1.19.3
-    defaults:
-      run:
-        shell: bash -l {0}
     permissions:
       contents: 'write'
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - name: Checkout sort-awesome-lists repo
         uses: actions/checkout@v3
         with:
           repository: 'kvnxiao/sort-awesome-lists'
       - name: Build sort-awesome-lists
-        run: |
-          go build -o sort-awesome-lists main.go
+        uses: actions/setup-go@v3
+        with:
+          go-version-file: 'go.mod'
+          cache: true
+      - run: go build -o sort-awesome-lists main.go
       - name: Checkout this repo
         uses: actions/checkout@v3
       - name: Build lists
