@@ -7,7 +7,15 @@ Star counts are updated daily.
 
 View the lists at https://devsjc.github.io/awesome-starsorted/.
 
-## Dependencies
+Available sorted lists are:
+  - awesome-go: https://devsjc.github.io/awesome-starsorted/awesome-go
+
+## Adding a new list
+
+Append new lists to [lists.conf](https://github.com/devsjc/awesome-starsorted/blob/main/lists.conf).
+Don't forget to add them to the contents above!
+
+## Dependencies and thanks
 
 Generating the star-sorted markdown utilises
 [kvnxiao's star-sorted-lists](https://github.com/kvnxiao/sort-awesome-lists)

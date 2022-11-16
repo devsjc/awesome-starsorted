@@ -1,3 +1,15 @@
 # _config.yml
 
 title: "Awesome StarSorted"
+theme: minima
+
+plugins:
+  - jekyll-readme-index
+  - jekyll-optional-front-matter
+
+optional_front_matter:
+  remove_originals: true
+
+readme_index:
+  remove_originals: true
+  with_frontmatter: true

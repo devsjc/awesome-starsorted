@@ -29,13 +29,6 @@ jobs:
              read -r value
                echo "Sorting ${key} at ${value}";
                ./sort-awesome-lists/sal-cmd -t=${{ secrets.GITHUB_TOKEN }} -o=${key}.md ${value}
-               cat << EOF
-               ---
-               layout: page
-               title: ${key}
-               permalink: /${key}
-               ---
-               EOF | cat - ${key}.md > temp && mv temp ${key}.md
              done
           done
       - name: Setup Pages
