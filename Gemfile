@@ -2,9 +2,10 @@
 
 source 'https://rubygems.org'
 
-gem 'jekyll', '~> 4.2.2'
+gem 'jekyll', '~> 3.9.2'
 
 group :jekyll_plugins do
-  gem "jekyll-readme-index"
-  gem 'jekyll-optional-front-matter'
+  gem 'jekyll-readme-index', '~> 0.3.0'
+  gem 'jekyll-optional-front-matter', '~> 0.3.2'
+  gem 'minima', '~> 2.5.1'
 end
