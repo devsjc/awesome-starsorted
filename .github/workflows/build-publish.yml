@@ -25,11 +25,13 @@ jobs:
         uses: actions/checkout@v3
       - name: Build lists
         run: |
+          mkdir docs
           cat lists.conf | while read line || [[ -n $line ]];
           do
              [[ ${line//[[:space:]]/} =~ ^#.* || -z "$line" ]] && continue
              echo $line | tr "=" "\n" | while read -r key; do
              read -r value
-               echo "key: ${key} and value: ${value}";
+               echo "Sorting ${key} at ${value}";
+               ./sort-awesome-lists -t=${{ GITHUB_TOKEN }} -o=docs/${key}.md ${value}
              done
           done
