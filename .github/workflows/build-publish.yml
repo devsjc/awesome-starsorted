@@ -30,13 +30,6 @@ jobs:
         with:
           path: '**.md'
           key: ${{ runner.os }}-${{ steps.date.outputs.date }}-${{ hashFiles('**/lockfiles') }}
-      - name: Cache ruby bundle
-        uses: actions/cache@v3
-        with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
       - name: Checkout sort-awesome-lists repo
         run: git clone https://github.com/kvnxiao/sort-awesome-lists
       - name: Build sort-awesome-lists binary
