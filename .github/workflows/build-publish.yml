@@ -15,27 +15,28 @@ jobs:
     steps:
       - name: Checkout this repo
         uses: actions/checkout@v3
+      - name: Setup Pages
+        uses: actions/configure-pages@v2
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
       - name: Checkout sort-awesome-lists repo
         run: git clone https://github.com/kvnxiao/sort-awesome-lists
-      - name: Build sort-awesome-lists
+      - name: Build sort-awesome-lists binary
         uses: actions/setup-go@v3
       - run: cd sort-awesome-lists && go build -o sal-cmd main.go
-      - name: Build lists
+      - name: Parse lists in lists.conf and generate sorted versions
         run: |
-          mkdir docs
           cat lists.conf | while read line || [[ -n $line ]];
           do
              [[ ${line//[[:space:]]/} =~ ^#.* || -z "$line" ]] && continue
              echo $line | tr "=" "\n" | while read -r key; do
              read -r value
                echo "Sorting ${key} at ${value}";
-               ./sort-awesome-lists/sal-cmd -t=${{ secrets.GITHUB_TOKEN }} -o=docs/${key}.md ${value}
+               ./sort-awesome-lists/sal-cmd -t=${{ secrets.GITHUB_TOKEN }} -o=_site/${key}.md ${value}
              done
           done
       - name: Create pages artifact
         uses: actions/upload-pages-artifact@v1
-        with:
-          path: docs
           
   publish:
     runs-on: ubuntu-latest
