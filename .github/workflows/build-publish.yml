@@ -7,7 +7,7 @@ on:
    
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-22.04
     permissions:
       contents: 'write'
@@ -32,6 +32,6 @@ jobs:
              echo $line | tr "=" "\n" | while read -r key; do
              read -r value
                echo "Sorting ${key} at ${value}";
-               ./sort-awesome-lists -t=${{ GITHUB_TOKEN }} -o=docs/${key}.md ${value}
+               ./sort-awesome-lists -t=${{ secrets.GITHUB_TOKEN }} -o=docs/${key}.md ${value}
              done
           done
