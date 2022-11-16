@@ -31,8 +31,6 @@ jobs:
                ./sort-awesome-lists/sal-cmd -t=${{ secrets.GITHUB_TOKEN }} -o=${key}.md ${value}
              done
           done
-      - name: Setup Pages
-        uses: actions/configure-pages@v2
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
       - name: Create pages artifact
