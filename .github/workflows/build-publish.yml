@@ -20,7 +20,6 @@ jobs:
         uses: actions/setup-go@v3
         with:
           go-version-file: 'go.mod'
-          cache: true
       - run: go build -o sort-awesome-lists main.go
       - name: Checkout this repo
         uses: actions/checkout@v3
