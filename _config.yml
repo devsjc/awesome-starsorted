@@ -1,11 +1,24 @@
 # _config.yml
 
 title: "Awesome StarSorted"
+author:
+  name: devsjc
+
+
+# Build
+markdown: kramdown
 theme: minima
 
 plugins:
   - jekyll-readme-index
   - jekyll-optional-front-matter
+
+minima:
+  skin: auto
+  social_links:
+    - platform: github
+      user_url: "https://github.com/devsjc/awesome-starsorted"
+    
 
 optional_front_matter:
   remove_originals: true
