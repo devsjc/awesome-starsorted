@@ -5,7 +5,7 @@ on:
     - cron:  '30 3 * * *'
     
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -27,7 +27,7 @@ jobs:
         id: cache-md
         with:
           path: '**.md'
-          key: ${{ runner.os }}-${{ steps.date.outputs.date }}-${{ hashFiles('**/lockfiles') }}
+          key: ${{ runner.os }}-${{ steps.date.outputs.date }}
       - name: Checkout sort-awesome-lists repo
         run: git clone https://github.com/kvnxiao/sort-awesome-lists
       - name: Build sort-awesome-lists binary
@@ -46,14 +46,14 @@ jobs:
              done
           done
       - name: Setup Ruby
-        uses: ruby/setup-ruby@0a29871fe2b0200a17a4497bae54fe5df0d973aa # v1.115.3
+        uses: ruby/setup-ruby@0a29871fe2b0200a17a4497bae54fe5df0d973aa
         with:
           ruby-version: '3.0'
           bundler-cache: true
           cache-version: 0
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v2
+        uses: actions/configure-pages@v2.1.2
       - name: Build with Jekyll
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:

@@ -7,16 +7,17 @@ author:
 
 # Build
 theme: minima
+markdown: kramdown
 
 plugins:
   - jekyll-readme-index
   - jekyll-optional-front-matter
 
-#minima:
-#  skin: auto
-#  social_links:
-#    - platform: github
-#      user_url: "https://github.com/devsjc/awesome-starsorted"
+minima:
+  skin: auto
+  social_links:
+    - platform: github
+      user_url: "https://github.com/devsjc/awesome-starsorted"
     
 
 optional_front_matter:
