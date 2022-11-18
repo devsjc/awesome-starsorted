@@ -44,10 +44,18 @@ jobs:
              echo $line | tr "=" "\n" | while read -r key; do
              read -r value
                echo "Sorting ${key} at ${value}";
-               ./sort-awesome-lists/sal-cmd -t=${{ secrets.GITHUB_TOKEN }} -o=${key}.md ${value}
+               ./sort-awesome-lists/sal-cmd -t=$GITHUB_TOKEN -o=${key}.md ${value}
              done
           done
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: cd && rm -rf sort-awesome-lists
+      - run: |
+          gh api \
+          -H "Accept: application/vnd.github+json" \
+          /rate_limit
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
       - name: Upload artifact
@@ -60,6 +68,8 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: Setup Pages
+        uses: actions/configure-pages@v2
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
