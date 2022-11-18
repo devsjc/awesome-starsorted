@@ -34,7 +34,7 @@ jobs:
           echo "$usedcount calls to GitHub API used (limit $limit)."
           echo "used=$usedcount" >> $GITHUB_OUTPUT
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_API_TOKEN }}
           
   build:
     runs-on: ubuntu-latest
@@ -56,7 +56,7 @@ jobs:
              echo $line | tr "=" "\n" | while read -r key; do
              read -r value
                echo "Sorting ${key} at ${value}";
-               ./sort-awesome-lists/sal-cmd -t=${{ secrets.GITHUB_TOKEN }} -o=${key}.md ${value}
+               ./sort-awesome-lists/sal-cmd -t=${{ secrets.GH_API_TOKEN }} -o=${key}.md ${value}
              done
           done
       - run: rm -rf sort-awesome-lists && ls
