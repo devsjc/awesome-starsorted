@@ -20,17 +20,26 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  check-limit:
+    runs-on: ubuntu-latest 
+    outputs:
+      result: ${{ steps.check.outputs.remaining }}
+    steps:
+      - name: Check remaining GitHub API call limit
+        id: check
+        run: |
+          echo remaining=$(gh api -H \"Accept: application/vnd.github+json\" /rate_limit \
+          | jq .resources.core.remaining) >> $GITHUB_OUTPUT
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
   build:
     runs-on: ubuntu-latest
+    needs: check-limit
+    if: needs.check-limit.outputs.result > 0
     steps:
       - name: Checkout this repo
         uses: actions/checkout@v3
-      - run: |
-          gh api \
-          -H "Accept: application/vnd.github+json" \
-          /rate_limit
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Checkout sort-awesome-lists repo
         run: git clone https://github.com/kvnxiao/sort-awesome-lists
       - name: Build sort-awesome-lists binary
@@ -44,18 +53,10 @@ jobs:
              echo $line | tr "=" "\n" | while read -r key; do
              read -r value
                echo "Sorting ${key} at ${value}";
-               ./sort-awesome-lists/sal-cmd -t=$GITHUB_TOKEN -o=${key}.md ${value}
+               ./sort-awesome-lists/sal-cmd -t=${{ secrets.GITHUB_TOKEN }} -o=${key}.md ${value}
              done
           done
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - run: cd && rm -rf sort-awesome-lists
-      - run: |
-          gh api \
-          -H "Accept: application/vnd.github+json" \
-          /rate_limit
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: rm -rf sort-awesome-lists && ls
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
       - name: Upload artifact
