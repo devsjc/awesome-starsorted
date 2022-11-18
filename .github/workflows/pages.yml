@@ -28,7 +28,7 @@ jobs:
       - name: Check remaining GitHub API calls from limit
         id: check
         run: |
-          count=$(gh api -H \"Accept: application/vnd.github+json\" /rate_limit | jq -r .resources.core.remaining)
+          count=$(gh api -H "Accept: application/vnd.github+json" /rate_limit | jq -r .resources.core.remaining)
           echo "$count calls to GitHub API remaining."
           echo "remaining=$count" >> $GITHUB_OUTPUT
         env:
