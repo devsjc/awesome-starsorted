@@ -23,21 +23,23 @@ jobs:
   check-limit:
     runs-on: ubuntu-latest 
     outputs:
-      result: ${{ steps.check.outputs.remaining }}
+      result: ${{ steps.check.outputs.used }}
     steps:
-      - name: Check remaining GitHub API calls from limit
+      - name: Check used GitHub API calls from limit
         id: check
         run: |
-          count=$(gh api -H "Accept: application/vnd.github+json" /rate_limit | jq -r .resources.core.remaining)
-          echo "$count calls to GitHub API remaining."
-          echo "remaining=$count" >> $GITHUB_OUTPUT
+          gh api -H "Accept: application/vnd.github+json" /rate_limit | jq -r . >> response.json
+          usedcount=$(cat response.json | jq -r .resources.core.used)
+          limit=$(cat response.json | jq -r .resources.core.limit)
+          echo "$usedcount calls to GitHub API used (limit $limit)."
+          echo "used=$usedcount" >> $GITHUB_OUTPUT
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
   build:
     runs-on: ubuntu-latest
     needs: check-limit
-    if: needs.check-limit.outputs.result > 0
+    if: needs.check-limit.outputs.result < 2
     steps:
       - name: Checkout this repo
         uses: actions/checkout@v3
