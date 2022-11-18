@@ -1,16 +1,20 @@
-name: Build, Publish
+name: Build and deploy to GitHub Pages
 
 on:
   push:
     branches: ['main']
   schedule:
     - cron:  '30 3 * * *'
-    
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
+# Allow one concurrent deployment
 concurrency:
   group: "pages"
   cancel-in-progress: true
@@ -21,6 +25,10 @@ jobs:
     steps:
       - name: Checkout this repo
         uses: actions/checkout@v3
+      - name: Check rate limit
+        run: gh api -H "Accept: application/vnd.github+json" /rate_limit  
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Checkout sort-awesome-lists repo
         run: git clone https://github.com/kvnxiao/sort-awesome-lists
       - name: Build sort-awesome-lists binary
@@ -37,6 +45,7 @@ jobs:
                ./sort-awesome-lists/sal-cmd -t=${{ secrets.GITHUB_TOKEN }} -o=${key}.md ${value}
              done
           done
+      - run: cd && rm -rf sort-awesome-lists
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
       - name: Upload artifact
