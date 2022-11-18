@@ -21,22 +21,12 @@ jobs:
     steps:
       - name: Checkout this repo
         uses: actions/checkout@v3
-      - name: Get date
-        id: date
-        run: echo "date=$(date + '%Y-%m-%d')" >> $GITHUB_OUTPUT
-      - name: Cache parsed markdown files per day
-        uses: actions/cache@v3
-        id: cache-md
-        with:
-          path: '**.md'
-          key: ${{ runner.os }}-${{ steps.date.outputs.date }}
       - name: Checkout sort-awesome-lists repo
         run: git clone https://github.com/kvnxiao/sort-awesome-lists
       - name: Build sort-awesome-lists binary
         uses: actions/setup-go@v3
       - run: cd sort-awesome-lists && go build -o sal-cmd main.go
       - name: Parse lists in lists.conf and generate sorted versions
-        if: steps.cache-md.output.cache-hit != 'true'
         run: |
           cat lists.conf | while read line || [[ -n $line ]];
           do
@@ -47,19 +37,8 @@ jobs:
                ./sort-awesome-lists/sal-cmd -t=${{ secrets.GITHUB_TOKEN }} -o=${key}.md ${value}
              done
           done
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@0a29871fe2b0200a17a4497bae54fe5df0d973aa
-        with:
-          ruby-version: '3.0'
-          bundler-cache: true
-          cache-version: 0
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v2.1.2
       - name: Build with Jekyll
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
-        env:
-          JEKYLL_ENV: production
+        uses: actions/jekyll-build-pages@v1
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
           
@@ -70,6 +49,8 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: Setup Pages
+        uses: actions/configure-pages@latest
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
