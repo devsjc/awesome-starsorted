@@ -25,8 +25,10 @@ jobs:
     steps:
       - name: Checkout this repo
         uses: actions/checkout@v3
-      - name: Check rate limit
-        run: gh api -H "Accept: application/vnd.github+json" /rate_limit  
+      - run: |
+          gh api \
+          -H "Accept: application/vnd.github+json" \
+          /rate_limit
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Checkout sort-awesome-lists repo
