@@ -29,11 +29,10 @@ jobs:
         id: check
         run: |
           count=$(gh api -H \"Accept: application/vnd.github+json\" /rate_limit | jq -r .resources.core.remaining)
-          echo remaining=$count >> $GITHUB_OUTPUT
+          echo "$count calls to GitHub API remaining."
+          echo "remaining=$count" >> $GITHUB_OUTPUT
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Print number of remaining calls
-        run: echo ${{ steps.check.outputs.remaining }} calls to GitHub API remaining.
           
   build:
     runs-on: ubuntu-latest
