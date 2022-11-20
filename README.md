@@ -1,6 +1,4 @@
-# awesome-starsorted
-
-[![Deploy](https://github.com/devsjc/awesome-starsorted/actions/workflows/build-publish.yml/badge.svg)](https://github.com/devsjc/awesome-starsorted/actions/workflows/build-publish.yml)
+# Awesome lists, sorted by stars
 
 Awesome lists sorted by stars, rendered as a Github Pages site with Jeckyll.
 Star counts are updated daily.
@@ -8,12 +6,14 @@ Star counts are updated daily.
 View the lists at https://devsjc.github.io/awesome-starsorted/.
 
 Available sorted lists are:
-  - awesome-go: https://devsjc.github.io/awesome-starsorted/awesome-go
+  - awesome-go: https://devsjc.github.io/awesome-starsorted/awesome-go.html
 
 ## Adding a new list
 
-Append new lists to [lists.conf](https://github.com/devsjc/awesome-starsorted/blob/main/lists.conf).
-Don't forget to add them to the contents above!
+Add a new workflow file, ensuring that its scheduled to run on a seperate hour to
+any other scheduled template!
+
+Then add them to the contents above!
 
 ## Dependencies and thanks
 
