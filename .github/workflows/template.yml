@@ -1,17 +1,12 @@
 name: Build and deploy to GitHub Pages
 
 on:
-  schedule:
-    - cron:  ${{ inputs.cron-schedule }}
   workflow_call:
     inputs:
       list-name:
         required: true
         type: string
       list-url:
-        required: true
-        type: string
-      cron-schedule:
         required: true
         type: string
 
