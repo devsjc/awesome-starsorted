@@ -6,7 +6,7 @@ author:
 
 
 # Build
-theme: minima
+remote_theme: just-the-docs/just-the-docs
 markdown: kramdown
 
 plugins:
