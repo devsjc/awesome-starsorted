@@ -1,12 +1,14 @@
-name: Generate and deploy awesome-go list to Pages
+name: Generate, build and publish awesome-selfhosted list to Pages
 
 on:
   schedule:
     - cron: '30 4 * * *'
+  workflow_dispatch:
 
 jobs:
   generate-and-publish:
     uses: devsjc/awesome-starsorted/.github/workflows/template.yml@main
     with:
-      list-name: awesome-go
+      list-name: awesome-selfhosted
       list-url: https://raw.githubusercontent.com/awesome-selfhosted/awesome-selfhosted/master/README.md
+    secrets: inherit

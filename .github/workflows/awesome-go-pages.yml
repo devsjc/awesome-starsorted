@@ -1,9 +1,9 @@
-name: Generate and deploy awesome-go list to Pages
+name: Generate, build and publish awesome-go list to Pages
 
 on:
   schedule:
     - cron: '30 3 * * *'
-  workflow_dispach:
+  workflow_dispatch:
 
 jobs:
   generate-and-publish:

@@ -1,4 +1,4 @@
-name: Build and deploy to GitHub Pages
+name: Template to generate, build and deploy a list
 
 on:
   workflow_call:
