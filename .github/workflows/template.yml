@@ -1,12 +1,19 @@
 name: Build and deploy to GitHub Pages
 
 on:
-  push:
-    branches: ['main']
   schedule:
-    - cron:  '30 3 * * *'
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+    - cron:  ${{ inputs.cron-schedule }}
+  workflow_call:
+    inputs:
+      list-name:
+        required: true
+        type: string
+      list-url:
+        required: true
+        type: string
+      cron-schedule:
+        required: true
+        type: string
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -48,17 +55,10 @@ jobs:
       - name: Build sort-awesome-lists binary
         uses: actions/setup-go@v3
       - run: cd sort-awesome-lists && go build -o sal-cmd main.go
-      - name: Parse lists in lists.conf and generate sorted versions
+      - name: Parse input list ${{ inputs.list-name }} and generate sorted version
         run: |
-          cat lists.conf | while read line || [[ -n $line ]];
-          do
-             [[ ${line//[[:space:]]/} =~ ^#.* || -z "$line" ]] && continue
-             echo $line | tr "=" "\n" | while read -r key; do
-             read -r value
-               echo "Sorting ${key} at ${value}";
-               ./sort-awesome-lists/sal-cmd -t=${{ secrets.GH_API_TOKEN }} -o=${key}.md ${value}
-             done
-          done
+            echo "Sorting ${{ inputs.list-name }} at ${{ inputs.list-url }}";
+            ./sort-awesome-lists/sal-cmd -t=${{ secrets.GH_API_TOKEN }} -o=${{ inputs.list-name }}.md ${{ inputs.list-value }}
       - run: rm -rf sort-awesome-lists && ls
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
