@@ -3,6 +3,7 @@ name: Generate and deploy awesome-go list to Pages
 on:
   schedule:
     - cron: '30 3 * * *'
+  workflow_dispach:
 
 jobs:
   generate-and-publish:
@@ -10,3 +11,4 @@ jobs:
     with:
       list-name: awesome-go
       list-url: https://raw.githubusercontent.com/avelino/awesome-go/main/README.md
+    secrets: inherit
