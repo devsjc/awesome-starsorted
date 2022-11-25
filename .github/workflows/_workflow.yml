@@ -7,17 +7,19 @@ on:
 jobs:     
   build:
     runs-on: ubuntu-latest
+    if: ${{ github.triggering_actor }} != "GitHub Action Bot"
     steps:
       - name: Checkout this repo
         uses: actions/checkout@v3
       - name: Create workflow files for lists in lists.json
         run: |
+          echo ${{ github.triggering_actor }}
           chmod u+x gen-workflow.sh
-          cat lists.json | jq -r '.lists[] | [.name, .url, .schedule]' | while read -r name url schedule; do
+          cat lists.json | jq -c .lists[] | jq -r '[.name, .url, .schedule]' | while read -r name url schedule; do
             echo "$name"
             echo "$url"
             echo "$schedule"
-            bash gen-workflow.sh "$name $url $schedule" > .github/workflows/"$name".yml
+            bash gen-workflow.sh "$name" "$url" "$schedule" > .github/workflows/"$name".yml
           done
       - name: Commit generated workflow
         run: |
