@@ -12,7 +12,8 @@ jobs:
         uses: actions/checkout@v3
       - name: Create workflow files for lists in lists.json
         run: |
-          for row in $(cat lists.json | jq -r '.[] | map(["list-name"], ["list-url"], .schedule) | @sh')
+          for row in $(cat lists.json | jq -r '.[] | map("list-name", "list-url", "schedule") | @sh')
           do
             echo $1 $2 $3
           done
+
