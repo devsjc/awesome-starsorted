@@ -1,0 +1,12 @@
+[
+  {
+    "list-name": "awesome-selfhosted",
+    "list-url": "https://raw.githubusercontent.com/awesome-selfhosted/awesome-selfhosted/master/README.md",
+    "schedule": "0 6 * * *"
+  },
+  {
+    "list-name": "awesome-go",
+    "list-url": "https://raw.githubusercontent.com/avelino/awesome-go/main/README.md",
+    "schedule": "0 7 * * *"
+  }
+]
