@@ -14,9 +14,9 @@ jobs:
         run: |
           for row in $(cat lists.json | jq -r '.[]')
           do
-             name=$(_jq '.name')
-             url=$(_jq '.url')
-             cron=$_jq '.schedule')
+             name=$(echo $row | jq '.name')
+             url=$(echo $row | jq '.url')
+             cron=$(echo $row | jq '.schedule')
 
              echo $name $url $schedule
           done
