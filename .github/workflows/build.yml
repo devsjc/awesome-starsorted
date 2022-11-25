@@ -1,5 +1,4 @@
-
-: Test builds successfully with Jeckyll
+name: Test builds successfully with Jeckyll
 
 on:
   push:
