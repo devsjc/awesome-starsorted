@@ -7,7 +7,7 @@ on:
 
 jobs:
   generate-and-publish:
-    uses: devsjc/awesome-starsorted/.github/workflows/template.yml@main
+    uses: devsjc/awesome-starsorted/.github/workflows/_template.yml@main
     with:
       list-name: awesome-go
       list-url: https://raw.githubusercontent.com/avelino/awesome-go/main/README.md
