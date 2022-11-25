@@ -14,6 +14,6 @@ jobs:
         run: |
           for row in $(cat lists.json | jq -r '.[] | map("list-name", "list-url", "schedule") | @sh')
           do
-            echo $1 $2 $3
+            echo $row
           done
 
