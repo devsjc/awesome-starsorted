@@ -13,7 +13,7 @@ jobs:
       - name: Create workflow files for lists in lists.json
         run: |
           cat lists.json | jq -r '.lists[] | [.name, .url, .schedule]' | while read -r name url schedule; do
-            echo $name $url $schedule
+            echo "$name" "$url" "$schedule"
           done
 
 
