@@ -2,7 +2,7 @@ name: Generate, build and publish awesome-go list to Pages
 
 on:
   schedule:
-    - cron: '30 3 * * *'
+    - cron: '0 7 * * *'
   workflow_dispatch:
 
 jobs:
