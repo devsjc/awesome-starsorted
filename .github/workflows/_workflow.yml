@@ -14,7 +14,10 @@ jobs:
         run: |
           chmod u+x gen-workflow.sh
           cat lists.json | jq -r '.lists[] | [.name, .url, .schedule]' | while read -r name url schedule; do
-            bash gen-workflow.sh "$name" "$url" "$schedule" > .github/workflows/$name.yml
+            echo $name
+            echo $url
+            echo $schedule
+            bash gen-workflow.sh $name $url $schedule > .github/workflows/$name.yml
           done
       - name: Commit generated workflow
         run: |
