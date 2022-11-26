@@ -15,7 +15,7 @@ jobs:
         run: |
           echo ${{ github.triggering_actor }}
           chmod u+x gen-workflow.sh
-          cat lists.json | jq -c .lists[] | jq -r '[.name, .url, .schedule]' | while read -r name url schedule; do
+          cat lists.json | jq -c .lists | jq -r 'map(.name, .url, .schedule) | .[]' | while read -r name url schedule; do
             echo "$name"
             echo "$url"
             echo "$schedule"
