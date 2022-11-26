@@ -16,6 +16,10 @@ jobs:
           echo ${{ github.triggering_actor }}
           chmod u+x gen-workflow.sh
           cat lists.json | jq -r '.lists[] | map(values) | @sh' | while read -r name url schedule; do 
+            eval name=$name
+            eval url=$url
+            eval schedule=$schedule
+            echoe $name $url $schedule
             bash gen-workflow.sh $name $url "$schedule" > .github/workflows/$name.yml
             echo .github/workflows/$name.yml
             ls .github/workflows
