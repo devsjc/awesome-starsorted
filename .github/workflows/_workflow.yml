@@ -19,7 +19,7 @@ jobs:
             eval name=$name
             eval url=$url
             eval schedule=$schedule
-            echoe $name $url $schedule
+            echo $name $url $schedule
             bash gen-workflow.sh $name $url "$schedule" > .github/workflows/$name.yml
             echo .github/workflows/$name.yml
             ls .github/workflows
