@@ -11,7 +11,7 @@ name: Generate, build and publish $NAME list to Pages
 
 on:
   schedule:
-    - cron: '$CRON'
+    - cron: $CRON
   workflow_dispatch:
 
 jobs:
