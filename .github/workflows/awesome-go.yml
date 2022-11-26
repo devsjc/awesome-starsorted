@@ -12,3 +12,4 @@ jobs:
       list-name: awesome-go
       list-url: https://raw.githubusercontent.com/avelino/awesome-go/main/README.md
     secrets: inherit
+

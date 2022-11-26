@@ -12,3 +12,4 @@ jobs:
       list-name: awesome-selfhosted
       list-url: https://raw.githubusercontent.com/awesome-selfhosted/awesome-selfhosted/master/README.md
     secrets: inherit
+
