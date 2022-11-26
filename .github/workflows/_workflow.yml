@@ -15,11 +15,9 @@ jobs:
         run: |
           echo ${{ github.triggering_actor }}
           chmod u+x gen-workflow.sh
-          cat lists.json | jq -c .lists | jq -r 'map(.name, .url, .schedule) | .[]' | while read -r name url schedule; do
-            echo "$name"
-            echo "$url"
-            echo "$schedule"
-            bash gen-workflow.sh "$name" "$url" "$schedule" > .github/workflows/"$name".yml
+          cat lists.json | jq -r '.lists[] | map(values) | @sh' | while read -r name url schedule; do 
+            echo $name $url $schedule
+            bash gen-workflow.sh $name $url $schedule > .github/workflows/$name.yml
           done
       - name: Commit generated workflow
         run: |
