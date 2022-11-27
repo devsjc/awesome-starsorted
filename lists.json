@@ -9,6 +9,11 @@
       "name": "awesome-go",
       "url": "https://raw.githubusercontent.com/avelino/awesome-go/main/README.md",
       "schedule": "0 7 * * *"
+    },
+    {
+      "name": "awesome-geospatial",
+      "url": "https://raw.githubusercontent.com/sacridini/Awesome-Geospatial/master/README.md",
+      "schedule": "0 5 * * *"
     }
   ]
 }
