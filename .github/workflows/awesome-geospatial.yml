@@ -1,0 +1,15 @@
+name: Generate, build and publish awesome-geospatial list to Pages
+
+on:
+  schedule:
+    - cron: '0 5 * * *'
+  workflow_dispatch:
+
+jobs:
+  generate-and-publish:
+    uses: devsjc/awesome-starsorted/.github/workflows/_template.yml@main
+    with:
+      list-name: awesome-geospatial
+      list-url: https://raw.githubusercontent.com/sacridini/Awesome-Geospatial/master/README.md
+    secrets: inherit
+
