@@ -14,6 +14,11 @@
       "name": "awesome-geospatial",
       "url": "https://raw.githubusercontent.com/sacridini/Awesome-Geospatial/master/README.md",
       "schedule": "0 5 * * *"
+    },
+    {
+      "name": "awesome-bigdata",
+      "url": "https://raw.githubusercontent.com/newTendermint/awesome-bigdata/master/README.md"
+      "schedule": "0 8 * * *"
     }
   ]
 }
