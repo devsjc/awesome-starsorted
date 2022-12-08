@@ -1,0 +1,15 @@
+name: Generate, build and publish awesome-bigdata list to Pages
+
+on:
+  schedule:
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+
+jobs:
+  generate-and-publish:
+    uses: devsjc/awesome-starsorted/.github/workflows/_template.yml@main
+    with:
+      list-name: awesome-bigdata
+      list-url: https://raw.githubusercontent.com/newTendermint/awesome-bigdata/master/README.md
+    secrets: inherit
+
