@@ -17,7 +17,7 @@
     },
     {
       "name": "awesome-bigdata",
-      "url": "https://raw.githubusercontent.com/newTendermint/awesome-bigdata/master/README.md"
+      "url": "https://raw.githubusercontent.com/newTendermint/awesome-bigdata/master/README.md",
       "schedule": "0 8 * * *"
     }
   ]
