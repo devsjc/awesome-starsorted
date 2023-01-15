@@ -52,6 +52,7 @@ jobs:
       - run: cd sort-awesome-lists && go build -o sal-cmd main.go
       - name: Parse input list ${{ inputs.list-name }} and generate sorted version
         run: |
+            rm lists/${{ inputs.list-name }}.md;
             echo "Sorting ${{ inputs.list-name }} at ${{ inputs.list-url }}";
             ./sort-awesome-lists/sal-cmd -t=${{ secrets.GH_API_TOKEN }} -o=lists/${{ inputs.list-name }}.md ${{ inputs.list-url }}
       - run: rm -rf sort-awesome-lists && ls
