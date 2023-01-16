@@ -65,7 +65,7 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
           git add lists/${{ inputs.list-name }}.md
-          git commit -m "Add/update ${{ inputs.list-name }} sorted"
+          git commit -m "Add/update ${{ inputs.list-name }} sorted [skip ci]"
           git push origin main
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
