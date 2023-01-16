@@ -19,6 +19,7 @@ jobs:
           cat lists.json | jq -r '.lists[] | map(values) | @sh' | while read -r name url schedule; do 
             eval name=$name
             eval url=$url
+            rm .github/workflows/$name.yml
             bash gen-workflow.sh $name $url "$schedule" > .github/workflows/$name.yml
           done
       - name: Commit generated workflow
@@ -26,7 +27,7 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
           git add .github/workflows/*.yml
-          git commit -m "Generate workflow yaml"
+          git commit -m "Generate workflow yaml [skip ci]"
           git push origin main  
 
 
