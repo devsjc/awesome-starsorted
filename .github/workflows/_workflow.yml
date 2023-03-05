@@ -19,7 +19,7 @@ jobs:
           cat lists.json | jq -r '.lists[] | map(values) | @sh' | while read -r name url schedule; do 
             eval name=$name
             eval url=$url
-            rm .github/workflows/$name.yml
+            [ -e .github/workflows/$name.yaml ] && rm .github/workflows/$name.yml
             bash gen-workflow.sh $name $url "$schedule" > .github/workflows/$name.yml
           done
       - name: Commit generated workflow
