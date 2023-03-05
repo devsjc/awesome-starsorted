@@ -1,0 +1,15 @@
+name: Generate, build and publish awesome-rust list to Pages
+
+on:
+  schedule:
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+
+jobs:
+  generate-and-publish:
+    uses: devsjc/awesome-starsorted/.github/workflows/_template.yml@main
+    with:
+      list-name: awesome-rust
+      list-url: https://raw.githubusercontent.com/rust-unofficial/awesome-rust/main/README.md
+    secrets: inherit
+
