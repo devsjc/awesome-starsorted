@@ -1,0 +1,15 @@
+name: Generate, build and publish awesome-macos-commandline list to Pages
+
+on:
+  schedule:
+    - cron: '0 10 * * *'
+  workflow_dispatch:
+
+jobs:
+  generate-and-publish:
+    uses: devsjc/awesome-starsorted/.github/workflows/_template.yml@main
+    with:
+      list-name: awesome-macos-commandline
+      list-url: https://raw.githubusercontent.com/phmullins/awesome-macos-commandline/master/readme.md
+    secrets: inherit
+
