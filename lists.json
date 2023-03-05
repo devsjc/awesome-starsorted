@@ -24,6 +24,11 @@
       "name": "awesome-rust",
       "url": "https://raw.githubusercontent.com/rust-unofficial/awesome-rust/main/README.md",
       "schedule": "0 9 * * *"
+    },
+    {
+      "name": "awesome-macos-commandline",
+      "url": "https://raw.githubusercontent.com/phmullins/awesome-macos-commandline/master/readme.md",
+      "schedule": "0 10 * * *"
     }
   ]
 }
