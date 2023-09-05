@@ -47,7 +47,7 @@ A curated list of fantastically awesome command-line software for macOS. This li
 
 *Audio players, editors, and converters.*
 
-- **<code>&nbsp;&nbsp;1114</code>** [csound](https://csound.com/) - A Sound and Music Computing System.
+- **<code>&nbsp;&nbsp;1115</code>** [csound](https://csound.com/) - A Sound and Music Computing System.
 - **<code>&nbsp;&nbsp;&nbsp;991</code>** [switchaudio](https://github.com/deweller/switchaudio-osx) - Change the audio source for macOS.
 - **<code>&nbsp;&nbsp;&nbsp;319</code>** [mpd](https://www.musicpd.org/) - A flexible, powerful, server-side application for playing music.
 - **<code>&nbsp;&nbsp;&nbsp;163</code>** [mpc](https://www.musicpd.org/clients/mpc/) - A solid, lightweight, simple mpd client, written in C.
@@ -55,10 +55,10 @@ A curated list of fantastically awesome command-line software for macOS. This li
 
 ### Automation
 
-- **<code>&nbsp;58443</code>** [Ansible](https://www.ansible.com/) - Simple IT Automation.
+- **<code>&nbsp;58454</code>** [Ansible](https://www.ansible.com/) - Simple IT Automation.
 - **<code>&nbsp;12543</code>** [Capistrano](http://capistranorb.com) - Remote multi-server automation tool.
-- **<code>&nbsp;&nbsp;7311</code>** [Chef](https://www.chef.io) - IT Automation Tool.
-- **<code>&nbsp;&nbsp;3641</code>** [Molecule](http://molecule.readthedocs.io/en/master/) - Automated testing for Ansible roles.
+- **<code>&nbsp;&nbsp;7314</code>** [Chef](https://www.chef.io) - IT Automation Tool.
+- **<code>&nbsp;&nbsp;3643</code>** [Molecule](http://molecule.readthedocs.io/en/master/) - Automated testing for Ansible roles.
 - **<code>&nbsp;&nbsp;&nbsp;167</code>** [Posixcube](https://github.com/myplaceonline/posixcube) - Shell script-based server automation framework.
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Saltstack](https://www.saltstack.com/) - Control and secure your digital infrastructure.
 
@@ -66,8 +66,8 @@ A curated list of fantastically awesome command-line software for macOS. This li
 
 *Backup software.*
 
-- **<code>&nbsp;21088</code>** [restic](https://restic.net/) - Backups done right!
-- **<code>&nbsp;18184</code>** [Rclone](http://rclone.org/) - A command line program to sync files and directories to the cloud.
+- **<code>&nbsp;21092</code>** [restic](https://restic.net/) - Backups done right!
+- **<code>&nbsp;18188</code>** [Rclone](http://rclone.org/) - A command line program to sync files and directories to the cloud.
 - **<code>&nbsp;&nbsp;3159</code>** [Rsync Time](https://github.com/laurent22/rsync-time-backup) - Time Machine style backup with rsync.
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [s3cmd](http://s3tools.org/usage) - Command Line S3 Client Software and S3 Backup.
 
@@ -75,8 +75,8 @@ A curated list of fantastically awesome command-line software for macOS. This li
 
 *Communication Applications.*
 
-- **<code>&nbsp;43811</code>** [mastodon](https://github.com/tootsuite/mastodon) - Self-hosted, globally interconnected microblogging community.
-- **<code>&nbsp;&nbsp;6082</code>** [tg](https://github.com/vysheng/tg) - Command Line Telegram.
+- **<code>&nbsp;43825</code>** [mastodon](https://github.com/tootsuite/mastodon) - Self-hosted, globally interconnected microblogging community.
+- **<code>&nbsp;&nbsp;6083</code>** [tg](https://github.com/vysheng/tg) - Command Line Telegram.
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [RaspChat](http://beta.raspchat.com) - A chat server that can run on Raspberry Pi.
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [The Lounge](https://thelounge.github.io/) - Self-hosted web IRC client.
 
@@ -88,9 +88,9 @@ A curated list of fantastically awesome command-line software for macOS. This li
 
 *Databases and database utilities.*
 
-- **<code>&nbsp;26234</code>** [RethinkDB](https://rethinkdb.com/) - The open-source database for the realtime web.
-- **<code>&nbsp;11263</code>** [pgcli](https://www.pgcli.com/) - Postgres CLI with autocompletion.
-- **<code>&nbsp;11006</code>** [mycli](http://mycli.net/) - A Terminal Client for MySQL.
+- **<code>&nbsp;26237</code>** [RethinkDB](https://rethinkdb.com/) - The open-source database for the realtime web.
+- **<code>&nbsp;11264</code>** [pgcli](https://www.pgcli.com/) - Postgres CLI with autocompletion.
+- **<code>&nbsp;11008</code>** [mycli](http://mycli.net/) - A Terminal Client for MySQL.
 - **<code>&nbsp;&nbsp;&nbsp;350</code>** [Postgrest](http://postgrest.com) - REST API for any Postgres database.
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;95</code>** [Pex](https://github.com/petere/pex) - Light-weight package manager for PostgreSQL.
 
@@ -102,18 +102,18 @@ A curated list of fantastically awesome command-line software for macOS. This li
 
 *DevOps tools and utilities.*
 
-- **<code>&nbsp;27163</code>** [Minikube](https://github.com/kubernetes/minikube) - Run Kubernetes locally.
+- **<code>&nbsp;27169</code>** [Minikube](https://github.com/kubernetes/minikube) - Run Kubernetes locally.
 - **<code>&nbsp;&nbsp;2432</code>** [Minishift](https://github.com/minishift/minishift) - Run OpenShift locally.
 
 ### File Managers
 
 *File management tools and utilities.*
 
-- **<code>&nbsp;16960</code>** [nnn](https://github.com/jarun/nnn) - The missing terminal file browser.
-- **<code>&nbsp;13873</code>** [ranger](https://github.com/ranger/ranger) - A console file manager with VI key bindings.
-- **<code>&nbsp;13022</code>** [ncdu](https://dev.yorhel.nl/ncdu) - A disk usage analyzer with an ncurses interface.
-- **<code>&nbsp;&nbsp;2561</code>** [modd](https://github.com/cortesi/modd) - A flexible tool for responding to filesystem changes.
-- **<code>&nbsp;&nbsp;1939</code>** [diskonaut](https://github.com/imsnif/diskonaut) - Terminal disk space navigator. 
+- **<code>&nbsp;16962</code>** [nnn](https://github.com/jarun/nnn) - The missing terminal file browser.
+- **<code>&nbsp;13880</code>** [ranger](https://github.com/ranger/ranger) - A console file manager with VI key bindings.
+- **<code>&nbsp;13032</code>** [ncdu](https://dev.yorhel.nl/ncdu) - A disk usage analyzer with an ncurses interface.
+- **<code>&nbsp;&nbsp;2563</code>** [modd](https://github.com/cortesi/modd) - A flexible tool for responding to filesystem changes.
+- **<code>&nbsp;&nbsp;1941</code>** [diskonaut](https://github.com/imsnif/diskonaut) - Terminal disk space navigator. 
 
 ### Graphics
 
@@ -123,25 +123,25 @@ A curated list of fantastically awesome command-line software for macOS. This li
 
 ### Information
 
-- **<code>&nbsp;18708</code>** [neofetch](https://github.com/dylanaraps/neofetch) - A command-line system information tool written in bash 3.2+.
-- **<code>&nbsp;&nbsp;8210</code>** [onefetch](https://github.com/o2sh/onefetch) - A command-line Git information tool written in Rust.
-- **<code>&nbsp;&nbsp;1854</code>** [pfetch](https://github.com/dylanaraps/pfetch/) - A pretty system information tool.
-- **<code>&nbsp;&nbsp;1672</code>** [cpufetch](https://github.com/Dr-Noob/cpufetch) - Simple yet fancy CPU architecture fetching tool.
+- **<code>&nbsp;18713</code>** [neofetch](https://github.com/dylanaraps/neofetch) - A command-line system information tool written in bash 3.2+.
+- **<code>&nbsp;&nbsp;8212</code>** [onefetch](https://github.com/o2sh/onefetch) - A command-line Git information tool written in Rust.
+- **<code>&nbsp;&nbsp;1856</code>** [pfetch](https://github.com/dylanaraps/pfetch/) - A pretty system information tool.
+- **<code>&nbsp;&nbsp;1674</code>** [cpufetch](https://github.com/Dr-Noob/cpufetch) - Simple yet fancy CPU architecture fetching tool.
 
 ### Infrastructure Management
 
 *Infrastructure Management tools for macOS.*
 
-- **<code>&nbsp;38711</code>** [Terraform](https://www.terraform.io/) - Write, Plan, and Create Infrastructure as Code.
+- **<code>&nbsp;38722</code>** [Terraform](https://www.terraform.io/) - Write, Plan, and Create Infrastructure as Code.
 
 ### Markdown
 
-- **<code>&nbsp;13195</code>** [glow](https://github.com/charmbracelet/glow) - Render markdown on the CLI, with pizzazz! 💅🏻 
-- **<code>&nbsp;&nbsp;4732</code>** [mdp](https://github.com/visit1985/mdp) - Markdown presentation tool.
+- **<code>&nbsp;13199</code>** [glow](https://github.com/charmbracelet/glow) - Render markdown on the CLI, with pizzazz! 💅🏻 
+- **<code>&nbsp;&nbsp;4733</code>** [mdp](https://github.com/visit1985/mdp) - Markdown presentation tool.
 
 ### Miscellaneous
 
-- **<code>&nbsp;&nbsp;7434</code>** [genact](https://github.com/svenstaro/genact) - A nonsense activity generator
+- **<code>&nbsp;&nbsp;7435</code>** [genact](https://github.com/svenstaro/genact) - A nonsense activity generator
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [vice](https://sourceforge.net/projects/vice-emu/) -  Emulates the C64, C64-DTV, C128, VIC20, PET, PLUS4, and CBM-II.
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [nb](https://xwmx.github.io/nb/) -  Note‑taking, bookmarking, archiving, knowledge-base.
 
@@ -149,14 +149,14 @@ A curated list of fantastically awesome command-line software for macOS. This li
 
 *Networking tools and utilities.*
 
-- **<code>&nbsp;55208</code>** [yt-dlp](https://github.com/yt-dlp/yt-dlp) - Download videos from YouTube.com and other video sites.
-- **<code>&nbsp;49485</code>** [Caddy](https://caddyserver.com/) - Caddy is the HTTP/2 web server with automatic HTTPS.
-- **<code>&nbsp;48076</code>** [You-Get](https://you-get.org/) - Tiny download utility.
-- **<code>&nbsp;23462</code>** [Croc](https://github.com/schollz/croc) - Securely send things from one computer to another.
-- **<code>&nbsp;22317</code>** [homebridge](https://github.com/nfarina/homebridge) - HomeKit support for the impatient.
-- **<code>&nbsp;14314</code>** [Transfer](https://github.com/dutchcoders/transfer.sh) - Easy file sharing from the command line.
-- **<code>&nbsp;&nbsp;3945</code>** [Storm](https://github.com/emre/storm) - Manage your SSH hosts like a boss.
-- **<code>&nbsp;&nbsp;1150</code>** [lychee](https://github.com/lycheeverse/lychee) - Link checker written in Rust
+- **<code>&nbsp;55296</code>** [yt-dlp](https://github.com/yt-dlp/yt-dlp) - Download videos from YouTube.com and other video sites.
+- **<code>&nbsp;49501</code>** [Caddy](https://caddyserver.com/) - Caddy is the HTTP/2 web server with automatic HTTPS.
+- **<code>&nbsp;48088</code>** [You-Get](https://you-get.org/) - Tiny download utility.
+- **<code>&nbsp;23471</code>** [Croc](https://github.com/schollz/croc) - Securely send things from one computer to another.
+- **<code>&nbsp;22322</code>** [homebridge](https://github.com/nfarina/homebridge) - HomeKit support for the impatient.
+- **<code>&nbsp;14319</code>** [Transfer](https://github.com/dutchcoders/transfer.sh) - Easy file sharing from the command line.
+- **<code>&nbsp;&nbsp;3946</code>** [Storm](https://github.com/emre/storm) - Manage your SSH hosts like a boss.
+- **<code>&nbsp;&nbsp;1161</code>** [lychee](https://github.com/lycheeverse/lychee) - Link checker written in Rust
 - **<code>&nbsp;&nbsp;&nbsp;973</code>** [Hget](https://github.com/huydx/hget) - Rocket fast download accelerator.
 - **<code>&nbsp;&nbsp;&nbsp;415</code>** [MacOS VPN](https://github.com/halo/macosvpn) - Create macOS VPNs programmatically.
 - **<code>&nbsp;&nbsp;&nbsp;331</code>** [hss](https://github.com/six-ddc/hss) - An interactive parallel ssh client.
@@ -172,8 +172,8 @@ A curated list of fantastically awesome command-line software for macOS. This li
 - **<code>&nbsp;&nbsp;1189</code>** [Tomb](https://github.com/dyne/Tomb) - The Crypto Undertaker.
 - **<code>&nbsp;&nbsp;&nbsp;992</code>** [1pass](https://github.com/georgebrock/1pass) - A command line interface for 1Password.
 - **<code>&nbsp;&nbsp;&nbsp;370</code>** [pick](https://github.com/bndw/pick) - Minimal password manager for OS X and Linux.
-- **<code>&nbsp;&nbsp;&nbsp;344</code>** [pass](https://www.passwordstore.org/) - The standard unix password manager.
-- **<code>&nbsp;&nbsp;&nbsp;344</code>** [pass-tomb](https://github.com/roddhjav/pass-tomb) -  Store password encrypted inside a tomb.
+- **<code>&nbsp;&nbsp;&nbsp;345</code>** [pass](https://www.passwordstore.org/) - The standard unix password manager.
+- **<code>&nbsp;&nbsp;&nbsp;345</code>** [pass-tomb](https://github.com/roddhjav/pass-tomb) -  Store password encrypted inside a tomb.
 - **<code>&nbsp;&nbsp;&nbsp;124</code>** [Ironclad](https://github.com/dmulholland/ironclad) - A command line password manager.
 - **<code>&nbsp;&nbsp;&nbsp;112</code>** [onepw](https://github.com/mkideal/onepw) - A command line tool for managing passwords.
 
@@ -187,13 +187,13 @@ A curated list of fantastically awesome command-line software for macOS. This li
 
 *Various tools to aid in programming.*
 
-- **<code>&nbsp;&nbsp;8190</code>** [datasette](https://docs.datasette.io/en/stable/) - An open source multi-tool for exploring and publishing data.
+- **<code>&nbsp;&nbsp;8194</code>** [datasette](https://docs.datasette.io/en/stable/) - An open source multi-tool for exploring and publishing data.
 
 ### Searching
 
 *Tools to help you find stuff*
 
-- **<code>&nbsp;39793</code>** [ripgrep](https://github.com/BurntSushi/ripgrep) - Combines the usability of The Silver Searcher with the raw speed of grep.
+- **<code>&nbsp;39806</code>** [ripgrep](https://github.com/BurntSushi/ripgrep) - Combines the usability of The Silver Searcher with the raw speed of grep.
 - **<code>&nbsp;&nbsp;7421</code>** [Peco](https://github.com/peco/peco) - Simplistic interactive filtering tool.
 - **<code>&nbsp;&nbsp;2804</code>** [fzy](https://github.com/jhawthorn/fzy) - A better fuzzy finder.
 
@@ -201,9 +201,9 @@ A curated list of fantastically awesome command-line software for macOS. This li
 
 *Various UNIX shells for macOS*
 
-- **<code>&nbsp;40457</code>** [powershell](https://github.com/powershell/powershell) -  Microsoft PowerShell.
-- **<code>&nbsp;26172</code>** [Nu Shell](https://github.com/nushell/nushell) - A modern shell for the GitHub era.
-- **<code>&nbsp;22190</code>** [fish](https://fishshell.com/) - User-friendly command-line shell.
+- **<code>&nbsp;40470</code>** [powershell](https://github.com/powershell/powershell) -  Microsoft PowerShell.
+- **<code>&nbsp;26202</code>** [Nu Shell](https://github.com/nushell/nushell) - A modern shell for the GitHub era.
+- **<code>&nbsp;22195</code>** [fish](https://fishshell.com/) - User-friendly command-line shell.
 - **<code>&nbsp;&nbsp;5124</code>** [Elvish](https://github.com/elves/elvish) - A friendly and expressive Unix shell.
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [zsh](https://www.zsh.org/) - Powerful interactive shell.
 
@@ -211,20 +211,20 @@ A curated list of fantastically awesome command-line software for macOS. This li
 
 *Shell Utilities for macOS.*
 
-- **<code>&nbsp;48394</code>** [alacritty](https://github.com/jwilm/alacritty) - A cross-platform, GPU-accelerated terminal emulator.
-- **<code>&nbsp;45319</code>** [tldr](https://tldr.sh/) - Simplified and community-driven man pages.
-- **<code>&nbsp;42792</code>** [bat](https://github.com/sharkdp/bat) - OSS cat replacement.
-- **<code>&nbsp;28676</code>** [fd](https://github.com/sharkdp/fd) - Simple, fast and user-friendly alternative to find.
-- **<code>&nbsp;25929</code>** [pv](https://www.ivarch.com/programs/pv.shtml) - Monitor the progress of data through a pipeline.
-- **<code>&nbsp;22627</code>** [exa](https://the.exa.website/) - exa is a modern replacement for ls.
-- **<code>&nbsp;19323</code>** [upterm](https://github.com/railsware/upterm) - A terminal emulator for the 21st century.
-- **<code>&nbsp;13284</code>** [navi](https://github.com/denisidoro/navi) - An interactive cheatsheet tool for the command-line.
-- **<code>&nbsp;13022</code>** [ncdu](https://dev.yorhel.nl/ncdu) - Disk usage analyzer with an ncurses interface.
-- **<code>&nbsp;10506</code>** [lsd](https://github.com/Peltoche/lsd) - The next gen ls command.
-- **<code>&nbsp;&nbsp;9496</code>** [bpytop](https://github.com/aristocratos/bpytop) - macOS resource monitor.
-- **<code>&nbsp;&nbsp;7438</code>** [bottom](https://github.com/ClementTsang/bottom) - Yet another cross-platform graphical process/system monitor.
-- **<code>&nbsp;&nbsp;5311</code>** [tmate](https://tmate.io/) - Instant terminal sharing.
-- **<code>&nbsp;&nbsp;4562</code>** [colorls](https://github.com/athityakumar/colorls) - Beautify the terminal `ls` command.
+- **<code>&nbsp;48418</code>** [alacritty](https://github.com/jwilm/alacritty) - A cross-platform, GPU-accelerated terminal emulator.
+- **<code>&nbsp;45327</code>** [tldr](https://tldr.sh/) - Simplified and community-driven man pages.
+- **<code>&nbsp;42804</code>** [bat](https://github.com/sharkdp/bat) - OSS cat replacement.
+- **<code>&nbsp;28688</code>** [fd](https://github.com/sharkdp/fd) - Simple, fast and user-friendly alternative to find.
+- **<code>&nbsp;25930</code>** [pv](https://www.ivarch.com/programs/pv.shtml) - Monitor the progress of data through a pipeline.
+- **<code>&nbsp;22630</code>** [exa](https://the.exa.website/) - exa is a modern replacement for ls.
+- **<code>&nbsp;19322</code>** [upterm](https://github.com/railsware/upterm) - A terminal emulator for the 21st century.
+- **<code>&nbsp;13294</code>** [navi](https://github.com/denisidoro/navi) - An interactive cheatsheet tool for the command-line.
+- **<code>&nbsp;13032</code>** [ncdu](https://dev.yorhel.nl/ncdu) - Disk usage analyzer with an ncurses interface.
+- **<code>&nbsp;10513</code>** [lsd](https://github.com/Peltoche/lsd) - The next gen ls command.
+- **<code>&nbsp;&nbsp;9498</code>** [bpytop](https://github.com/aristocratos/bpytop) - macOS resource monitor.
+- **<code>&nbsp;&nbsp;7443</code>** [bottom](https://github.com/ClementTsang/bottom) - Yet another cross-platform graphical process/system monitor.
+- **<code>&nbsp;&nbsp;5310</code>** [tmate](https://tmate.io/) - Instant terminal sharing.
+- **<code>&nbsp;&nbsp;4563</code>** [colorls](https://github.com/athityakumar/colorls) - Beautify the terminal `ls` command.
 - **<code>&nbsp;&nbsp;2148</code>** [ytop](https://github.com/cjbassi/ytop) - A TUI system monitor written in Rust.
 - **<code>&nbsp;&nbsp;1929</code>** [zenith](https://github.com/bvaisvil/zenith) - Like top or htop but with zoom-able charts, network, and disk usage. 
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [dat](https://datproject.org/) - Distributed data sharing tool.
@@ -237,9 +237,9 @@ A curated list of fantastically awesome command-line software for macOS. This li
 
 *Various security and encryption tools.*
 
-- **<code>&nbsp;18119</code>** [hashcat](https://hashcat.net/hashcat/) - World's fastest password cracker.
-- **<code>&nbsp;13890</code>** [Ciphey](https://github.com/Ciphey/Ciphey) - Decrypt data without knowing the key or cipher. Uses ML.
-- **<code>&nbsp;10222</code>** [vuls](https://github.com/future-architect/vuls) - Go-based, agentless vulnerability scanner.
+- **<code>&nbsp;18128</code>** [hashcat](https://hashcat.net/hashcat/) - World's fastest password cracker.
+- **<code>&nbsp;13897</code>** [Ciphey](https://github.com/Ciphey/Ciphey) - Decrypt data without knowing the key or cipher. Uses ML.
+- **<code>&nbsp;10226</code>** [vuls](https://github.com/future-architect/vuls) - Go-based, agentless vulnerability scanner.
 - **<code>&nbsp;&nbsp;3128</code>** [MacOS Auditor](https://github.com/jipegit/OSXAuditor) - A free MacOS computer forensics tool.
 - **<code>&nbsp;&nbsp;2392</code>** [SeKey](https://github.com/ntrippar/sekey) - Authenticate to UNIX/Linux SSH servers using the Secure Enclave.
 - **<code>&nbsp;&nbsp;1704</code>** [Spoof](https://github.com/feross/spoof) - Change your MAC address for debugging.
@@ -251,20 +251,20 @@ A curated list of fantastically awesome command-line software for macOS. This li
 
 ### System
 
-- **<code>&nbsp;54130</code>** [fzf](https://github.com/junegunn/fzf) - A command-line fuzzy finder written in Go.
-- **<code>&nbsp;13195</code>** [glow](https://github.com/charmbracelet/glow) - Render markdown on the CLI, with pizzazz!
-- **<code>&nbsp;11718</code>** [zoxide](https://github.com/ajeetdsouza/zoxide) - A faster way to navigate your filesystem.
-- **<code>&nbsp;10054</code>** [mas-cli](https://github.com/mas-cli/mas) - Mac App Store command line interface.
-- **<code>&nbsp;&nbsp;8893</code>** [Nix](https://nixos.org/nix/manual/#chap-quick-start) - Nix package manager for MacOS.
-- **<code>&nbsp;&nbsp;7866</code>** [progress](https://github.com/Xfennec/progress) - Tool to show progress for cp, mv, dd.
-- **<code>&nbsp;&nbsp;7837</code>** [shiori](https://github.com/RadhiFadlillah/shiori) - Shiori is a simple bookmarks manager written in Go.
-- **<code>&nbsp;&nbsp;6419</code>** [Conky](https://github.com/brndnmtthws/conky) - Light-weight system monitor for X.
-- **<code>&nbsp;&nbsp;5311</code>** [tmate](https://tmate.io/) - Instant terminal sharing.
-- **<code>&nbsp;&nbsp;3265</code>** [finicky](https://github.com/johnste/finicky) - Customize which browser to start.
-- **<code>&nbsp;&nbsp;3056</code>** [trash-cli](https://github.com/andreafrancia/trash-cli) - Command line interface to the freedesktop.org trashcan.
+- **<code>&nbsp;54147</code>** [fzf](https://github.com/junegunn/fzf) - A command-line fuzzy finder written in Go.
+- **<code>&nbsp;13199</code>** [glow](https://github.com/charmbracelet/glow) - Render markdown on the CLI, with pizzazz!
+- **<code>&nbsp;11730</code>** [zoxide](https://github.com/ajeetdsouza/zoxide) - A faster way to navigate your filesystem.
+- **<code>&nbsp;10055</code>** [mas-cli](https://github.com/mas-cli/mas) - Mac App Store command line interface.
+- **<code>&nbsp;&nbsp;8902</code>** [Nix](https://nixos.org/nix/manual/#chap-quick-start) - Nix package manager for MacOS.
+- **<code>&nbsp;&nbsp;7868</code>** [progress](https://github.com/Xfennec/progress) - Tool to show progress for cp, mv, dd.
+- **<code>&nbsp;&nbsp;7842</code>** [shiori](https://github.com/RadhiFadlillah/shiori) - Shiori is a simple bookmarks manager written in Go.
+- **<code>&nbsp;&nbsp;6420</code>** [Conky](https://github.com/brndnmtthws/conky) - Light-weight system monitor for X.
+- **<code>&nbsp;&nbsp;5310</code>** [tmate](https://tmate.io/) - Instant terminal sharing.
+- **<code>&nbsp;&nbsp;3266</code>** [finicky](https://github.com/johnste/finicky) - Customize which browser to start.
+- **<code>&nbsp;&nbsp;3057</code>** [trash-cli](https://github.com/andreafrancia/trash-cli) - Command line interface to the freedesktop.org trashcan.
 - **<code>&nbsp;&nbsp;2056</code>** [fDupes](https://github.com/adrianlopezroche/fdupes) - Identifying and/or deleting duplicate files.
-- **<code>&nbsp;&nbsp;1672</code>** [cpufetch](https://github.com/Dr-Noob/cpufetch) - Simple yet fancy CPU architecture fetching tool.
-- **<code>&nbsp;&nbsp;1609</code>** [rmlint](http://rmlint.readthedocs.io) - Remove duplicates and other lint from your filesystem.
+- **<code>&nbsp;&nbsp;1674</code>** [cpufetch](https://github.com/Dr-Noob/cpufetch) - Simple yet fancy CPU architecture fetching tool.
+- **<code>&nbsp;&nbsp;1610</code>** [rmlint](http://rmlint.readthedocs.io) - Remove duplicates and other lint from your filesystem.
 - **<code>&nbsp;&nbsp;&nbsp;255</code>** [statik](https://getstatik.com/) - Static web site generator. 
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [stow](https://www.gnu.org/software/stow/) - A symlink farm manager.
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [CollectD](http://collectd.org/) - System statistics collection daemon.
@@ -279,28 +279,28 @@ A curated list of fantastically awesome command-line software for macOS. This li
 
 ### Text Editors
 
-- **<code>&nbsp;22600</code>** [Micro](https://micro-editor.github.io/) - A modern and intuitive terminal-based text editor.
-- **<code>&nbsp;&nbsp;2850</code>** [nanorc](https://github.com/scopatz/nanorc) - Improved Nano Syntax Highlighting Files.
+- **<code>&nbsp;22605</code>** [Micro](https://micro-editor.github.io/) - A modern and intuitive terminal-based text editor.
+- **<code>&nbsp;&nbsp;2849</code>** [nanorc](https://github.com/scopatz/nanorc) - Improved Nano Syntax Highlighting Files.
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [nano](https://www.nano-editor.org/) - Basic text editor found on every UNIX/Linux machine.
 
 ### Version Control
 
 *Version Control utilities*
 
-- **<code>&nbsp;15487</code>** [dolt](https://github.com/dolthub/dolt) - It's Git for Data.
+- **<code>&nbsp;15490</code>** [dolt](https://github.com/dolthub/dolt) - It's Git for Data.
 - **<code>&nbsp;&nbsp;5980</code>** [Bit](https://github.com/chriswalz/bit) - Bit is a modern Git CLI.
 - **<code>&nbsp;&nbsp;1856</code>** [Gitless](http://gitless.com/) - A simple version control system built on top of Git.
 - **<code>&nbsp;&nbsp;&nbsp;499</code>** [GitFresh](https://github.com/imsky/git-fresh) - Keep your Git repo fresh. 
 - [Gripp]() - Preview GitHub Markdown files locally before committing them.
-- **<code>&nbsp;38516</code>** [LazyGit](https://github.com/jesseduffield/lazygit) - Simple terminal UI for git commands.
-- **<code>&nbsp;21637</code>** [Refined](https://github.com/sindresorhus/refined-github) - Browser extension that simplifies the GitHub interface.
+- **<code>&nbsp;38539</code>** [LazyGit](https://github.com/jesseduffield/lazygit) - Simple terminal UI for git commands.
+- **<code>&nbsp;21651</code>** [Refined](https://github.com/sindresorhus/refined-github) - Browser extension that simplifies the GitHub interface.
 - **<code>&nbsp;10243</code>** [ungit](https://github.com/FredrikNoren/ungit) - The easiest way to use git. 
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Legit](https://frostming.github.io/legit/) - Legit is a complementary command-line interface for Git.
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Tig](https://jonas.github.io/tig/) - Text-mode interface for Git.
 
 ### Video
 
-- **<code>&nbsp;21945</code>** [Annie](https://github.com/iawia002/annie) - a fast, simple and clean video downloader.
+- **<code>&nbsp;21956</code>** [Annie](https://github.com/iawia002/annie) - a fast, simple and clean video downloader.
 
 ### Virtualization
 
@@ -321,7 +321,7 @@ A curated list of fantastically awesome command-line software for macOS. This li
 
 ### Writing
 
-- **<code>&nbsp;&nbsp;4212</code>** [Proselint](http://proselint.com/) - A linter for prose.
+- **<code>&nbsp;&nbsp;4214</code>** [Proselint](http://proselint.com/) - A linter for prose.
 - **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [mdbook](https://rust-lang.github.io/mdBook/) - Rust crate to create books using Markdown files.
 
 ### Author
