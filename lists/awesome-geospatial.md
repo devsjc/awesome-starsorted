@@ -70,14 +70,14 @@ Long list of geospatial analysis tools. Geospatial analysis, or just spatial ana
 
 ## Database
 
-* **<code>&nbsp;&nbsp;8844</code>** [Tile38](https://github.com/tidwall/tile38) - Tile38 is a geospatial database, spatial index, and realtime geofence.
+* **<code>&nbsp;&nbsp;8845</code>** [Tile38](https://github.com/tidwall/tile38) - Tile38 is a geospatial database, spatial index, and realtime geofence.
 * **<code>&nbsp;&nbsp;4669</code>** [OrientDB](https://github.com/orientechnologies/orientdb) - OrientDB is an Open Source Multi-Model NoSQL DBMS with the support of Native Graphs, Documents Full-Text, Reactivity, Geo-Spatial and Object Oriented concepts.
 * **<code>&nbsp;&nbsp;1721</code>** [TileDB](https://github.com/TileDB-Inc/TileDB) - TileDB is a powerful engine for storing and accessing dense and sparse multi-dimensional arrays, which can help you model any complex data efficiently.
 * **<code>&nbsp;&nbsp;1085</code>** [PgRouting](https://pgrouting.org/) - pgRouting extends the PostGIS / PostgreSQL geospatial database to provide geospatial routing functionality.
 * **<code>&nbsp;&nbsp;1081</code>** [Microsoft SQL Server](https://docs.microsoft.com/en-us/sql/relational-databases/spatial/spatial-data-sql-server) - Microsoft SQL/SQL Azure spatial features. All the spatial functionality is also available as a .NET library (can be downloaded using nuget)
 * **<code>&nbsp;&nbsp;&nbsp;769</code>** [Neo4j Spatial](https://github.com/neo4j-contrib/spatial) - Library of spatial utilities for Neo4j.
 * **<code>&nbsp;&nbsp;&nbsp;513</code>** [GeoCouch](https://github.com/couchbase/geocouch) - GeoCouch is a spatial extension for Couchbase and Apache CouchDB.
-* **<code>&nbsp;&nbsp;&nbsp;469</code>** [MobilityDB](https://github.com/ULB-CoDE-WIT/MobilityDB) - An extension to the Postgres database which adds support for temporal and spatio-temporal objects
+* **<code>&nbsp;&nbsp;&nbsp;470</code>** [MobilityDB](https://github.com/ULB-CoDE-WIT/MobilityDB) - An extension to the Postgres database which adds support for temporal and spatio-temporal objects
 * **<code>&nbsp;&nbsp;&nbsp;269</code>** [PostGIS Vector Tile Utils](https://github.com/mapbox/postgis-vt-util) - A set of PostgreSQL functions that are useful when creating vector tile sources.
 * **<code>&nbsp;&nbsp;&nbsp;252</code>** [Geopackage](https://www.geopackage.org/) - SQLite spatial extension. More powerful than its older brother Spatialite.
 * **<code>&nbsp;&nbsp;&nbsp;200</code>** [H2GIS](https://github.com/orbisgis/h2gis) - A spatial extension of the H2 database.
@@ -131,7 +131,7 @@ Long list of geospatial analysis tools. Geospatial analysis, or just spatial ana
 ## Geographic Information System
 
 * **<code>&nbsp;&nbsp;1139</code>** [Mapbox Studio](https://github.com/mapbox/mapbox-studio-classic) - Desktop application for vector tile driven map design.
-* **<code>&nbsp;&nbsp;&nbsp;737</code>** [GRASS GIS](https://grass.osgeo.org/) - GRASS (Geographic Resources Analysis Support System) is a free and open source GIS.
+* **<code>&nbsp;&nbsp;&nbsp;738</code>** [GRASS GIS](https://grass.osgeo.org/) - GRASS (Geographic Resources Analysis Support System) is a free and open source GIS.
 * **<code>&nbsp;&nbsp;&nbsp;647</code>** [GeoDa](http://geodacenter.github.io/) - Spatial data analysis software.
 * **<code>&nbsp;&nbsp;&nbsp;261</code>** [MapWindow GIS](http://www.mapwindow.org/) - Free and open source desktop geographic information system.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [LuciadFusion](http://www.luciad.com/solutions/luciadfusion) - An all-in-one server solution for your data publication workflow and geospatial data management
@@ -156,17 +156,17 @@ Long list of geospatial analysis tools. Geospatial analysis, or just spatial ana
 
 ## Web Map Development
 
-* **<code>&nbsp;39563</code>** [Leaflet](http://leafletjs.com/) - Open-Source JavaScript Library for Mobile-Friendly Interactive Maps.
-* **<code>&nbsp;11588</code>** [CesiumJS](https://cesium.com/platform/cesiumjs/) - An open-source JavaScript library for world-class 3D globes and maps.
-* **<code>&nbsp;11544</code>** [deck.gl](https://deck.gl) - A WebGL-powered framework for visual exploratory data analysis of large datasets.
-* **<code>&nbsp;10706</code>** [OpenLayers](http://openlayers.org/) - High-performance, feature-packed library for creating interactive maps on the web.
-* **<code>&nbsp;&nbsp;5471</code>** [MapLibre GL](https://github.com/maplibre/maplibre-gl-js) - Is a community led fork derived from Mapbox GL JS prior to their switch to a non-OSS license.
-* **<code>&nbsp;&nbsp;3403</code>** [L7](https://github.com/antvis/L7) - Large-scale WebGL-powered Geospatial Data Visualization By Ant Financial
+* **<code>&nbsp;39571</code>** [Leaflet](http://leafletjs.com/) - Open-Source JavaScript Library for Mobile-Friendly Interactive Maps.
+* **<code>&nbsp;11591</code>** [CesiumJS](https://cesium.com/platform/cesiumjs/) - An open-source JavaScript library for world-class 3D globes and maps.
+* **<code>&nbsp;11548</code>** [deck.gl](https://deck.gl) - A WebGL-powered framework for visual exploratory data analysis of large datasets.
+* **<code>&nbsp;10707</code>** [OpenLayers](http://openlayers.org/) - High-performance, feature-packed library for creating interactive maps on the web.
+* **<code>&nbsp;&nbsp;5490</code>** [MapLibre GL](https://github.com/maplibre/maplibre-gl-js) - Is a community led fork derived from Mapbox GL JS prior to their switch to a non-OSS license.
+* **<code>&nbsp;&nbsp;3404</code>** [L7](https://github.com/antvis/L7) - Large-scale WebGL-powered Geospatial Data Visualization By Ant Financial
 * **<code>&nbsp;&nbsp;2167</code>** [Mapzen Tangram](https://github.com/tangrams/tangram) - JavaScript library for rendering 2D & 3D maps live in a web browser with WebGL, supports MVT, GeoJSON, TopoJSON.
 * **<code>&nbsp;&nbsp;1799</code>** [geojson-vt](https://github.com/mapbox/geojson-vt) - A highly efficient JavaScript library for slicing GeoJSON data into vector tiles on the fly.
-* **<code>&nbsp;&nbsp;1360</code>** [GeoNode](http://geonode.org/) - A web-based application and platform for developing geospatial information systems (GIS) and for deploying spatial data infrastructures (SDI).
+* **<code>&nbsp;&nbsp;1361</code>** [GeoNode](http://geonode.org/) - A web-based application and platform for developing geospatial information systems (GIS) and for deploying spatial data infrastructures (SDI).
 * **<code>&nbsp;&nbsp;1088</code>** [TerriaJS](https://github.com/TerriaJS/terriajs) - A library for building rich, web-based geospatial data explorers. 
-* **<code>&nbsp;&nbsp;&nbsp;657</code>** [titiler](https://github.com/developmentseed/titiler) - A dynamic Web Map tile server.
+* **<code>&nbsp;&nbsp;&nbsp;658</code>** [titiler](https://github.com/developmentseed/titiler) - A dynamic Web Map tile server.
 * **<code>&nbsp;&nbsp;&nbsp;323</code>** [CMV - The Configurable Map Viewer](https://github.com/cmv/cmv-app) - CMV is a community-supported open source mapping framework. CMV works with the Esri JavaScript API, ArcGIS Server, ArcGIS Online and more.
 * **<code>&nbsp;&nbsp;&nbsp;291</code>** [Leaflet.MapboxVectorTile](https://github.com/SpatialServer/Leaflet.MapboxVectorTile) - A Leaflet Plugin that renders Mapbox Vector Tiles on HTML5 Canvas.
 * **<code>&nbsp;&nbsp;&nbsp;284</code>** [Bertin.js](https://github.com/neocarto/bertin) - A JavaScript library for visualizing geospatial data and make thematic maps for the web.
@@ -195,11 +195,11 @@ Long list of geospatial analysis tools. Geospatial analysis, or just spatial ana
 
 ## Web Map Server
 
-* **<code>&nbsp;&nbsp;3508</code>** [Geoserver](http://geoserver.org/) - WMS written in Java and relies on GeoTools. Allows users to share and edit geospatial data.
-* **<code>&nbsp;&nbsp;&nbsp;960</code>** [Mapserver](http://mapserver.org/) - WMS written in C.
+* **<code>&nbsp;&nbsp;3510</code>** [Geoserver](http://geoserver.org/) - WMS written in Java and relies on GeoTools. Allows users to share and edit geospatial data.
+* **<code>&nbsp;&nbsp;&nbsp;961</code>** [Mapserver](http://mapserver.org/) - WMS written in C.
 * **<code>&nbsp;&nbsp;&nbsp;729</code>** [Nanocubes](https://github.com/laurolins/nanocube) - An in-memory data structure for spatiotemporal data cubes.
 * **<code>&nbsp;&nbsp;&nbsp;627</code>** [Terracotta](https://github.com/DHI-GRAS/terracotta) - A light-weight, versatile XYZ tile server. MIT-licensed, pure Python, serving Cloud-Optimized GeoTIFF (COG).
-* **<code>&nbsp;&nbsp;&nbsp;506</code>** [MapProxy](http://mapproxy.org/) - An open source tile server proxy for geospatial data (WMS-C, TMS, WMTS, KML SuperOverlays). It caches, accelerates and transforms data from existing map services and serves any desktop or web GIS client. 
+* **<code>&nbsp;&nbsp;&nbsp;507</code>** [MapProxy](http://mapproxy.org/) - An open source tile server proxy for geospatial data (WMS-C, TMS, WMTS, KML SuperOverlays). It caches, accelerates and transforms data from existing map services and serves any desktop or web GIS client. 
 * **<code>&nbsp;&nbsp;&nbsp;433</code>** [PGRestAPI](https://github.com/spatialdev/PGRestAPI) - Node.js REST API for PostGres Spatial Entities. AKA: SpatialServer.
 * **<code>&nbsp;&nbsp;&nbsp;262</code>** [THREDDS](https://github.com/Unidata/thredds) - The THREDDS Data Server (TDS) is a web server that provides metadata and data access for scientific data sets, using OPeNDAP, OGC WCS, HTTP, and other data access protocols.
 * **<code>&nbsp;&nbsp;&nbsp;141</code>** [Deegree](http://www.deegree.org/) - Open source software for spatial data infrastructures and the geospatial web. Deegree offers components for geospatial data management, including data access, visualization, discovery and security. Open standards are at the heart of Deegree. It supports WMS, WFS for Catalogue Service, WCS, WPS, WMTS.
@@ -232,7 +232,7 @@ Long list of geospatial analysis tools. Geospatial analysis, or just spatial ana
 
 * **<code>&nbsp;&nbsp;9274</code>** [The Point Cloud Library - PCL](https://pointclouds.org/) - Standalone, large scale, open project for 2D/3D image and point cloud processing.
 * **<code>&nbsp;&nbsp;4133</code>** [potree](https://github.com/potree/potree/) - Potree is a free open-source WebGL based point cloud renderer for large point clouds. PotreeConverter provides all files to view your point cloud with only a basic webserver running.
-* **<code>&nbsp;&nbsp;1038</code>** [PDAL](http://www.pdal.io/) - PDAL is a C++ BSD library for translating and manipulating point cloud data.
+* **<code>&nbsp;&nbsp;1039</code>** [PDAL](http://www.pdal.io/) - PDAL is a C++ BSD library for translating and manipulating point cloud data.
 * **<code>&nbsp;&nbsp;&nbsp;535</code>** [lidR](https://github.com/Jean-Romain/lidR) - R package for airborne LiDAR data manipulation and visualisation for forestry application.
 * **<code>&nbsp;&nbsp;&nbsp;482</code>** [plas.io](https://plas.io/) - WebGL point cloud rendering.
 * **<code>&nbsp;&nbsp;&nbsp;419</code>** [Laspy](http://laspy.readthedocs.io/en/latest/) - Laspy is a python library for reading, modifying, and creating .LAS LIDAR files.
@@ -260,7 +260,7 @@ Long list of geospatial analysis tools. Geospatial analysis, or just spatial ana
 
 ## 3D Application
 
-* **<code>&nbsp;10169</code>** [Open3D](http://www.open3d.org/) - Open-source library that supports rapid development of software that deals with 3D data. The Open3D frontend exposes a set of carefully selected data structures and algorithms in both C++ and Python.
+* **<code>&nbsp;10171</code>** [Open3D](http://www.open3d.org/) - Open-source library that supports rapid development of software that deals with 3D data. The Open3D frontend exposes a set of carefully selected data structures and algorithms in both C++ and Python.
 * **<code>&nbsp;&nbsp;&nbsp;503</code>** [3dfier](https://github.com/tudelft3d/3dfier) - The open-source tool for creation of 3D models.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;40</code>** [3dcitybuilder](https://github.com/arthurRuf/3dcitybuilder) - QGIS Plugin that generates 3D Models of Urban Areas.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [ArcGIS Earth](http://www.esri.com/software/arcgis-earth) - Display data, sketch placemarks, measure distances and areas, and add annotations at any part of the world
@@ -276,7 +276,7 @@ Long list of geospatial analysis tools. Geospatial analysis, or just spatial ana
 
 ## GNSS/INS Post Processing
 
-* **<code>&nbsp;&nbsp;2303</code>** [RTKLIB](https://github.com/tomojitakasu/RTKLIB) - RTKLIB is an open source program package for standard and precise positioning
+* **<code>&nbsp;&nbsp;2305</code>** [RTKLIB](https://github.com/tomojitakasu/RTKLIB) - RTKLIB is an open source program package for standard and precise positioning
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Applanix POSPAC MMS](https://www.applanix.com/products/pospac-mms.htm) - POSPac MMS leverages Global Navigation Satellite Systems (GNSS) and inertial navigation systems (INS) data to generate a source of truth for post-mission trajectories and mapping.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Leica Infinity Surveying Software](https://leica-geosystems.com/en-us/products/gnss-systems/software/leica-infinity) - Easily manage and process data from multiple sites and survey teams and from all of your different survey instruments – digital levels, total stations, UAVs, GNSS sensors, and now even scanners.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Novatel Waypoint](https://novatel.com/products/waypoint-post-processing-software) - Waypoint software leverages Global Navigation Satellite Systems (GNSS) and inertial navigation systems (INS) data to generate a source of truth for post-mission trajectories and mapping.
@@ -286,7 +286,7 @@ with GNSS (global navigation satellite system).
 
 ## Atmospheric Correction
 
-* **<code>&nbsp;&nbsp;&nbsp;737</code>** [i.atcorr](https://grass.osgeo.org/grass70/manuals/i.atcorr.html) - GRASS GIS module that performs atmospheric correction using the 6S algorithm.
+* **<code>&nbsp;&nbsp;&nbsp;738</code>** [i.atcorr](https://grass.osgeo.org/grass70/manuals/i.atcorr.html) - GRASS GIS module that performs atmospheric correction using the 6S algorithm.
 * **<code>&nbsp;&nbsp;&nbsp;176</code>** [Py6S](https://py6s.readthedocs.io/en/latest/) - Py6S is a interface to the Second Simulation of the Satellite Signal in the Solar Spectrum (6S) atmospheric Radiative Transfer Model through the Python programming language.
 * **<code>&nbsp;&nbsp;&nbsp;137</code>** [gee-atmcorr-S2](https://github.com/samsammurphy/gee-atmcorr-S2) - Atmospheric correction of Sentinel 2 imagery in Google Earth Engine using Py6S.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;78</code>** [6S_emulator](https://github.com/samsammurphy/6S_emulator) - The 6S emulator is an open-source atmospheric correction tool. It is based on the 6S radiative transfer model but it runs 100x faster with minimal additional error (i.e. < 0.5 %).
@@ -301,7 +301,7 @@ with GNSS (global navigation satellite system).
 
 
 ## Agent-based Modeling
-* **<code>&nbsp;&nbsp;2130</code>** [Mesa](https://github.com/projectmesa/mesa) - Mesa is an Apache2 licensed agent-based modeling (or ABM) framework in Python.
+* **<code>&nbsp;&nbsp;2133</code>** [Mesa](https://github.com/projectmesa/mesa) - Mesa is an Apache2 licensed agent-based modeling (or ABM) framework in Python.
 * **<code>&nbsp;&nbsp;&nbsp;967</code>** [NetLogo](https://ccl.northwestern.edu/netlogo/) - NetLogo is a multi-agent programmable modeling environment.
 * **<code>&nbsp;&nbsp;&nbsp;155</code>** [MASON](https://cs.gmu.edu/~eclab/projects/mason/) - MASON is a fast discrete-event multiagent simulation library core in Java, designed to be the foundation for large custom-purpose Java simulations, and also to provide more than enough functionality for many lightweight simulation needs. MASON contains both a model library and an optional suite of visualization tools in 2D and 3D.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;73</code>** [nlrx](https://github.com/ropensci/nlrx) - Provides tools to setup and execute NetLogo simulations from R.
@@ -331,8 +331,8 @@ with GNSS (global navigation satellite system).
 
 ## Libraries
 
-* **<code>&nbsp;&nbsp;4351</code>** [GDAL](http://www.gdal.org/) - Geospatial Data Abstraction Library (GDAL) is a translator library for raster and vector geospatial data formats.
-* **<code>&nbsp;&nbsp;3529</code>** [Mapnik](http://mapnik.org/) - C++/Python/Node.js library for map rendering.
+* **<code>&nbsp;&nbsp;4353</code>** [GDAL](http://www.gdal.org/) - Geospatial Data Abstraction Library (GDAL) is a translator library for raster and vector geospatial data formats.
+* **<code>&nbsp;&nbsp;3530</code>** [Mapnik](http://mapnik.org/) - C++/Python/Node.js library for map rendering.
 * **<code>&nbsp;&nbsp;1085</code>** [pgRouting](http://pgrouting.org/) - Extends the PostGIS / PostgreSQL geospatial database to provide geospatial routing functionality.
 * **<code>&nbsp;&nbsp;&nbsp;376</code>** [PointCloud](https://github.com/pgpointcloud/pointcloud) - A PostgreSQL extension for storing point cloud (LIDAR) data.
 * **<code>&nbsp;&nbsp;&nbsp;146</code>** [MDAL](https://github.com/lutraconsulting/MDAL) - Mesh Data Abstraction Library.
@@ -378,7 +378,7 @@ with GNSS (global navigation satellite system).
 
 ## Google Earth Engine
 
-* **<code>&nbsp;&nbsp;3097</code>** [geemap](https://github.com/giswqs/geemap) - A Python package for interactive mapping with Google Earth Engine, ipyleaflet, and ipywidgets.
+* **<code>&nbsp;&nbsp;3098</code>** [geemap](https://github.com/giswqs/geemap) - A Python package for interactive mapping with Google Earth Engine, ipyleaflet, and ipywidgets.
 * **<code>&nbsp;&nbsp;&nbsp;611</code>** [rgee](https://github.com/r-spatial/rgee) - Google Earth Engine for R.
 * **<code>&nbsp;&nbsp;&nbsp;386</code>** [eemont](https://github.com/davemlz/eemont) - A python package that extends Google Earth Engine.
 * **<code>&nbsp;&nbsp;&nbsp;202</code>** [gee_s1_ard](https://github.com/adugnag/gee_s1_ard) - Creates an analysis ready sentinel-1 SAR image collection in Google Earth Engine by applying additional border noise correction, speckle filtering and radiometric terrain normalization.
@@ -388,7 +388,7 @@ with GNSS (global navigation satellite system).
 * **<code>&nbsp;&nbsp;&nbsp;137</code>** [gee-atmcorr-S2](https://github.com/samsammurphy/gee-atmcorr-S2) - Atmospheric correction of Sentinel 2 imagery in Google Earth Engine using Py6S.
 * **<code>&nbsp;&nbsp;&nbsp;113</code>** [OpenEarthEngineLibrary](https://github.com/open-geocomputing/OpenEarthEngineLibrary) - Collection of code goodies for Google Earth Engine(GEE).
 * **<code>&nbsp;&nbsp;&nbsp;111</code>** [geeup](https://github.com/samapriya/geeup) - Simple CLI for Earth Engine Uploads.
-* **<code>&nbsp;&nbsp;&nbsp;&nbsp;91</code>** [sankee](https://github.com/aazuspan/sankee) - Visualize classified time series data with interactive Sankey plots in Google Earth Engine.
+* **<code>&nbsp;&nbsp;&nbsp;&nbsp;92</code>** [sankee](https://github.com/aazuspan/sankee) - Visualize classified time series data with interactive Sankey plots in Google Earth Engine.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;79</code>** [ee-fastapi](https://github.com/csaybar/ee-fastapi) - Flood Detection with Google Earth Engine.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;57</code>** [landsat-extract-gee](https://github.com/loicdtx/landsat-extract-gee) - Get Landsat surface reflectance time-series from google earth engine.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;53</code>** [ee-rgb-timeseries](https://github.com/jdbcode/ee-rgb-timeseries) - Earth Engine JS module to color time series chart points as stretched 3-band RGB.
@@ -405,10 +405,10 @@ with GNSS (global navigation satellite system).
 
 ## Deep Learning
 
-* **<code>&nbsp;&nbsp;7089</code>** [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) - MMSegmentation is an open source semantic segmentation toolbox based on PyTorch. It is a part of the OpenMMLab project.
+* **<code>&nbsp;&nbsp;7093</code>** [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) - MMSegmentation is an open source semantic segmentation toolbox based on PyTorch. It is a part of the OpenMMLab project.
 * **<code>&nbsp;&nbsp;2678</code>** [SNIPER](https://github.com/mahyarnajibi/SNIPER) - SNIPER is an efficient multi-scale object detection algorithm.
-* **<code>&nbsp;&nbsp;2557</code>** [segment-geospatial](https://github.com/opengeos/segment-geospatial) - Meta AI' Segment Anything Model (SAM) for Geospatial Data
-* **<code>&nbsp;&nbsp;2132</code>** [TorchGeo](https://github.com/microsoft/torchgeo) - TorchGeo is a PyTorch domain library, similar to torchvision, that provides datasets, transforms, samplers, and pre-trained models specific to geospatial data.
+* **<code>&nbsp;&nbsp;2558</code>** [segment-geospatial](https://github.com/opengeos/segment-geospatial) - Meta AI' Segment Anything Model (SAM) for Geospatial Data
+* **<code>&nbsp;&nbsp;2136</code>** [TorchGeo](https://github.com/microsoft/torchgeo) - TorchGeo is a PyTorch domain library, similar to torchvision, that provides datasets, transforms, samplers, and pre-trained models specific to geospatial data.
 * **<code>&nbsp;&nbsp;1966</code>** [Raster Vision](https://github.com/azavea/raster-vision) - An open source framework for deep learning on satellite and aerial imagery.
 * **<code>&nbsp;&nbsp;1067</code>** [eo-learn](https://github.com/sentinel-hub/eo-learn) - Earth observation processing framework for machine learning in Python.
 * **<code>&nbsp;&nbsp;1001</code>** [PixelLib](https://github.com/ayoolaolafenwa/PixelLib) - Pixellib is a library for performing segmentation of images. It suports both Semantic Segmentation as Instance Segmentation.
@@ -417,7 +417,7 @@ with GNSS (global navigation satellite system).
 * **<code>&nbsp;&nbsp;&nbsp;453</code>** [Label Maker](https://github.com/developmentseed/label-maker) - Data Preparation for Satellite Machine Learning.
 * **<code>&nbsp;&nbsp;&nbsp;448</code>** [libtorch-yolov3](https://github.com/walktree/libtorch-yolov3) - A Libtorch implementation of the YOLO v3 object detection algorithm.
 * **<code>&nbsp;&nbsp;&nbsp;423</code>** [DeepForest](https://github.com/weecology/DeepForest) - Python Package for Tree Crown Detection in Airborne RGB imagery.
-* **<code>&nbsp;&nbsp;&nbsp;404</code>** [Solaris](https://github.com/cosmiq/solaris) - CosmiQ Works Geospatial Machine Learning Analysis Toolkit.
+* **<code>&nbsp;&nbsp;&nbsp;405</code>** [Solaris](https://github.com/cosmiq/solaris) - CosmiQ Works Geospatial Machine Learning Analysis Toolkit.
 * **<code>&nbsp;&nbsp;&nbsp;376</code>** [TorchSat](https://github.com/sshuair/torchsat) - TorchSat is an open-source PyTorch framework for satellite imagery analysis.
 * **<code>&nbsp;&nbsp;&nbsp;353</code>** [Deep Learning ArcGIS](https://github.com/Esri/deep-learning-frameworks) - Deep Learning Libraries Installers for ArcGIS.
 * **<code>&nbsp;&nbsp;&nbsp;285</code>** [Hyperspectral](https://github.com/KGPML/Hyperspectral) - Deep Learning for Land-cover Classification in Hyperspectral Images.
@@ -429,15 +429,15 @@ with GNSS (global navigation satellite system).
 * **<code>&nbsp;&nbsp;&nbsp;139</code>** [sentinel-tree-cover](https://github.com/wri/sentinel-tree-cover) - Image segmentations of trees outside forest.
 * **<code>&nbsp;&nbsp;&nbsp;138</code>** [Temporal Convolutional Neural Network](https://github.com/charlotte-pel/temporalCNN) - Temporal Convolutional Neural Network for the Classification of Satellite Image Time Series.
 * **<code>&nbsp;&nbsp;&nbsp;127</code>** [platypus](https://github.com/maju116/platypus) - R package for object detection and image segmentation.
-* **<code>&nbsp;&nbsp;&nbsp;122</code>** [Presto](https://github.com/nasaharvest/presto) - Lightweight, Pre-trained Transformers for Remote Sensing Timeseries.
+* **<code>&nbsp;&nbsp;&nbsp;123</code>** [Presto](https://github.com/nasaharvest/presto) - Lightweight, Pre-trained Transformers for Remote Sensing Timeseries.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;99</code>** [AirNet](https://github.com/mathildor/TF-SegNet) - SegNet-like network implemented in TensorFlow to use for segmenting aerial images.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;77</code>** [Pixel Decoder](https://github.com/Geoyi/pixel-decoder) - A machine learning python package to run deep learning with satellite imagery.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;67</code>** [srcnn](https://github.com/WarrenGreen/srcnn) - Super Resolution for Satellite Imagery.
 
 ## C
 
-* **<code>&nbsp;&nbsp;8832</code>** [libvips](https://github.com/libvips/libvips) - A fast image processing library with low memory needs.
-* **<code>&nbsp;&nbsp;4493</code>** [H3](https://github.com/uber/h3) - Hexagonal hierarchical geospatial indexing system.
+* **<code>&nbsp;&nbsp;8835</code>** [libvips](https://github.com/libvips/libvips) - A fast image processing library with low memory needs.
+* **<code>&nbsp;&nbsp;4495</code>** [H3](https://github.com/uber/h3) - Hexagonal hierarchical geospatial indexing system.
 * **<code>&nbsp;&nbsp;3914</code>** [libpostal](https://github.com/openvenues/libpostal) - A C library for parsing/normalizing street addresses around the world. Powered by statistical NLP and open geo data.
 * **<code>&nbsp;&nbsp;&nbsp;654</code>** [YOLT](https://github.com/CosmiQ/yolt) - You Only Look Twice: Rapid Multi-Scale Object Detection In Satellite Imagery.
 * **<code>&nbsp;&nbsp;&nbsp;338</code>** [Datamaps](https://github.com/ericfischer/datamaps) - This is a tool for indexing large lists of geographic points or lines and dynamically generating map tiles from the index for display.
@@ -447,14 +447,14 @@ with GNSS (global navigation satellite system).
 
 ## C++
 
-* **<code>&nbsp;&nbsp;5970</code>** [OSRM (Open Source Routing Machine)](http://project-osrm.org/) - High performance routing engine written in C++, designed to run on OpenStreetMap data. Services available: Nearest, Route, Table, Match, Trip, Tile.
-* **<code>&nbsp;&nbsp;5640</code>** [Halide](https://github.com/halide/Halide) - Halide is a programming language designed to make it easier to write high-performance image processing code on modern machines.
-* **<code>&nbsp;&nbsp;4491</code>** [OpenDroneMap](https://github.com/OpenDroneMap/OpenDroneMap) - OpenDroneMap is a tool to postprocess drone, balloon, kite, and street view data to geographic data including orthophotos, point clouds, & textured mesh.
-* **<code>&nbsp;&nbsp;4351</code>** [GDAL](http://www.gdal.org/) - Geospatial Data Abstraction Library (GDAL) is a computer library that serve as a translator library for raster and vector geospatial data formats.
+* **<code>&nbsp;&nbsp;5972</code>** [OSRM (Open Source Routing Machine)](http://project-osrm.org/) - High performance routing engine written in C++, designed to run on OpenStreetMap data. Services available: Nearest, Route, Table, Match, Trip, Tile.
+* **<code>&nbsp;&nbsp;5642</code>** [Halide](https://github.com/halide/Halide) - Halide is a programming language designed to make it easier to write high-performance image processing code on modern machines.
+* **<code>&nbsp;&nbsp;4493</code>** [OpenDroneMap](https://github.com/OpenDroneMap/OpenDroneMap) - OpenDroneMap is a tool to postprocess drone, balloon, kite, and street view data to geographic data including orthophotos, point clouds, & textured mesh.
+* **<code>&nbsp;&nbsp;4353</code>** [GDAL](http://www.gdal.org/) - Geospatial Data Abstraction Library (GDAL) is a computer library that serve as a translator library for raster and vector geospatial data formats.
 * **<code>&nbsp;&nbsp;4323</code>** [Mapbox GL Native](https://github.com/mapbox/mapbox-gl-native) - Render Mapbox styles in mobile, desktop, and node applications using C++ and OpenGL.
-* **<code>&nbsp;&nbsp;4083</code>** [valhalla](https://github.com/valhalla/valhalla) - Open Source Routing Engine for OpenStreetMap.
-* **<code>&nbsp;&nbsp;3529</code>** [Mapnik](http://mapnik.org/) - C++ library for map rendering.
-* **<code>&nbsp;&nbsp;2542</code>** [tippecanoe](https://github.com/mapbox/tippecanoe) - Build vector tilesets from large collections of GeoJSON features.
+* **<code>&nbsp;&nbsp;4085</code>** [valhalla](https://github.com/valhalla/valhalla) - Open Source Routing Engine for OpenStreetMap.
+* **<code>&nbsp;&nbsp;3530</code>** [Mapnik](http://mapnik.org/) - C++ library for map rendering.
+* **<code>&nbsp;&nbsp;2544</code>** [tippecanoe](https://github.com/mapbox/tippecanoe) - Build vector tilesets from large collections of GeoJSON features.
 * **<code>&nbsp;&nbsp;2125</code>** [S2 Geometry](https://github.com/google/s2geometry) - Computational geometry and spatial indexing on the sphere.
 * **<code>&nbsp;&nbsp;1375</code>** [osgearth](https://github.com/gwaldron/osgearth) - A free open source C++ geospatial toolkit.
 * **<code>&nbsp;&nbsp;1314</code>** [ITK](https://itk.org/) - ITK is an open-source, cross-platform system that provides developers with an extensive suite of software tools for image analysis.
@@ -476,8 +476,8 @@ with GNSS (global navigation satellite system).
 * **<code>&nbsp;&nbsp;&nbsp;218</code>** [OSMExpress](https://github.com/protomaps/OSMExpress) - Fast database file format for OpenStreetMap.
 * **<code>&nbsp;&nbsp;&nbsp;210</code>** [TauDEM](https://github.com/dtarb/TauDEM) - Terrain Analysis Using Digital Elevation Models (TauDEM) software for hydrologic terrain analysis and channel network extraction. 
 * **<code>&nbsp;&nbsp;&nbsp;173</code>** [depthmapX](https://github.com/varoudis/depthmapX) - Multi-platform Spatial Network Analysis Software.
+* **<code>&nbsp;&nbsp;&nbsp;166</code>** [libGeoTiff](https://trac.osgeo.org/geotiff/) - Manipulate TIFF based interchange format for georeferenced raster imagery.
 * **<code>&nbsp;&nbsp;&nbsp;165</code>** [LASzip](https://github.com/LASzip/LASzip) - Quickly turns bulky LAS files into compact LAZ files without information loss.
-* **<code>&nbsp;&nbsp;&nbsp;165</code>** [libGeoTiff](https://trac.osgeo.org/geotiff/) - Manipulate TIFF based interchange format for georeferenced raster imagery.
 * **<code>&nbsp;&nbsp;&nbsp;159</code>** [otbtf](https://github.com/remicres/otbtf) - Deep learning with otb.
 * **<code>&nbsp;&nbsp;&nbsp;133</code>** [RSGISLib](http://rsgislib.org/) - The Remote Sensing and GIS software library (RSGISLib) is a collection of tools for processing remote sensing and GIS datasets. The tools are accessed using Python bindings or an XML interface.
 * **<code>&nbsp;&nbsp;&nbsp;115</code>** [gdalcubes](https://github.com/appelmar/gdalcubes) - gdalcubes is a library to represent collections of Earth Observation (EO) images as on demand data cubes (or multidimensional arrays).
@@ -499,14 +499,14 @@ with GNSS (global navigation satellite system).
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Vector Tiles Producer](https://github.com/vross/vector-tiles-producer) - Command line tool in C++ to creates vector tiles for a given area at chosen zoom levels using a Mapnik XML.
 
 ## C Sharp
-* **<code>&nbsp;&nbsp;1335</code>** [NTS Net Topology Suite](https://github.com/NetTopologySuite/NetTopologySuite) - A .NET GIS solution that is fast and reliable for the .NET platform.
+* **<code>&nbsp;&nbsp;1336</code>** [NTS Net Topology Suite](https://github.com/NetTopologySuite/NetTopologySuite) - A .NET GIS solution that is fast and reliable for the .NET platform.
 * **<code>&nbsp;&nbsp;&nbsp;841</code>** [DotSpatial](https://github.com/DotSpatial/DotSpatial) - DotSpatial is a geographic information system library written for .NET 4.
 * **<code>&nbsp;&nbsp;&nbsp;813</code>** [SharpMap](https://github.com/SharpMap/SharpMap) - SharpMap is an easy-to-use mapping library for use in web and desktop applications.
 * **<code>&nbsp;&nbsp;&nbsp;702</code>** [Mapbox Maps SDK for Unity](https://www.mapbox.com/unity-sdk/) - The Maps SDK for Unity is a collection of tools for building Unity applications from real map data.
 * **<code>&nbsp;&nbsp;&nbsp;426</code>** [GeoJSON.Net](https://github.com/GeoJSON-Net/GeoJSON.Net) - .Net library for GeoJSON types & corresponding Json.Net (de)serializers.
 * **<code>&nbsp;&nbsp;&nbsp;309</code>** [BruTile](https://github.com/BruTile/BruTile) - BruTile is a .NET library to access tile services like those of OpenStreetMap, MapBox or GeodanMaps.
 * **<code>&nbsp;&nbsp;&nbsp;302</code>** [osmsharp](http://www.osmsharp.com/) - OsmSharp is a C# library to work with OpenStreetMap (OSM) data.
-* **<code>&nbsp;&nbsp;&nbsp;269</code>** [DEM Net Elevation API](https://github.com/dem-net/DEM.Net) - 3D terrain generation library, provides access to global DEM datasets (OpenTopography, Nasa ASTER) and tiled imagery services. GlTF and STL export formats supported. [Live demo](https://elevationapi.com)
+* **<code>&nbsp;&nbsp;&nbsp;271</code>** [DEM Net Elevation API](https://github.com/dem-net/DEM.Net) - 3D terrain generation library, provides access to global DEM datasets (OpenTopography, Nasa ASTER) and tiled imagery services. GlTF and STL export formats supported. [Live demo](https://elevationapi.com)
 * **<code>&nbsp;&nbsp;&nbsp;222</code>** [Bing-Maps-Fleet-Tracker](https://github.com/Microsoft/Bing-Maps-Fleet-Tracker) - The Bing Maps Fleet Tracker is a tracking solution for small to medium sized teams. Easily track vehicles and mobile devices.
 * **<code>&nbsp;&nbsp;&nbsp;179</code>** [Bing Maps REST Toolkit](https://github.com/Microsoft/BingMapsRESTToolkit) - This is a portable class library which makes it easy to access the Bing Maps REST services from .NET.
 * **<code>&nbsp;&nbsp;&nbsp;174</code>** [Geo](https://github.com/sibartlett/Geo) - A geospatial library for .NET
@@ -559,13 +559,13 @@ with GNSS (global navigation satellite system).
 
 ## Go
 
-* **<code>&nbsp;&nbsp;4328</code>** [BuntDB](https://github.com/tidwall/buntdb) - BuntDB is an embeddable, in-memory key/value database for Go with custom indexing and geospatial support.
+* **<code>&nbsp;&nbsp;4329</code>** [BuntDB](https://github.com/tidwall/buntdb) - BuntDB is an embeddable, in-memory key/value database for Go with custom indexing and geospatial support.
 * **<code>&nbsp;&nbsp;1622</code>** [S2](https://github.com/golang/geo) - S2 is a library for spherical geometry that aims to have the same robustness, flexibility, and performance as the best planar geometry libraries.
-* **<code>&nbsp;&nbsp;1195</code>** [Tegola](https://github.com/go-spatial/tegola) - Tegola is a vector tile server delivering Mapbox Vector Tiles with support for PostGIS and GeoPackage data providers.
+* **<code>&nbsp;&nbsp;1194</code>** [Tegola](https://github.com/go-spatial/tegola) - Tegola is a vector tile server delivering Mapbox Vector Tiles with support for PostGIS and GeoPackage data providers.
 * **<code>&nbsp;&nbsp;1033</code>** [Draw2D](https://github.com/llgcode/draw2d) - 2D rendering for different output (raster, pdf).
 * **<code>&nbsp;&nbsp;&nbsp;796</code>** [orb](https://github.com/paulmach/orb) - A set of types for working with 2d geo and planar/projected geometric data in Golang
-* **<code>&nbsp;&nbsp;&nbsp;771</code>** [pg_tileserv](https://github.com/CrunchyData/pg_tileserv) - A very thin PostGIS-only tile server in Go. Takes in HTTP tile requests, executes SQL, returns MVT tiles.
-* **<code>&nbsp;&nbsp;&nbsp;759</code>** [go-geom](https://github.com/twpayne/go-geom) - Go library for handling geometries.
+* **<code>&nbsp;&nbsp;&nbsp;772</code>** [pg_tileserv](https://github.com/CrunchyData/pg_tileserv) - A very thin PostGIS-only tile server in Go. Takes in HTTP tile requests, executes SQL, returns MVT tiles.
+* **<code>&nbsp;&nbsp;&nbsp;760</code>** [go-geom](https://github.com/twpayne/go-geom) - Go library for handling geometries.
 * **<code>&nbsp;&nbsp;&nbsp;416</code>** [pg_featureserv](https://github.com/CrunchyData/pg_featureserv) - Lightweight RESTful Geospatial Feature Server for PostGIS in Go.
 * **<code>&nbsp;&nbsp;&nbsp;287</code>** [BoxTree](https://github.com/tidwall/boxtree) - An R-tree implementation for Go.
 * **<code>&nbsp;&nbsp;&nbsp;269</code>** [Go GDAL](https://github.com/lukeroth/gdal) - Go (golang) wrapper for GDAL, the Geospatial Data Abstraction Library.
@@ -595,8 +595,8 @@ with GNSS (global navigation satellite system).
 
 ## Java
 
-* **<code>&nbsp;&nbsp;4560</code>** [GraphHopper Routing Engine](https://github.com/graphhopper/graphhopper) - GraphHopper is a fast and memory efficient Java routing engine, released under Apache License 2.0. By default it uses OpenStreetMap and GTFS data, but it can import other data sources.
-* **<code>&nbsp;&nbsp;3508</code>** [GeoServer](http://geoserver.org/) - GeoServer is open source server for sharing geospatial data.
+* **<code>&nbsp;&nbsp;4561</code>** [GraphHopper Routing Engine](https://github.com/graphhopper/graphhopper) - GraphHopper is a fast and memory efficient Java routing engine, released under Apache License 2.0. By default it uses OpenStreetMap and GTFS data, but it can import other data sources.
+* **<code>&nbsp;&nbsp;3510</code>** [GeoServer](http://geoserver.org/) - GeoServer is open source server for sharing geospatial data.
 * **<code>&nbsp;&nbsp;1815</code>** [JTS Topology Suite](https://github.com/locationtech/jts) - JTS Topology Suite is an API of 2D spatial predicates and functions.
 * **<code>&nbsp;&nbsp;1734</code>** [Photon](https://github.com/komoot/photon) - Photon is an open source geocoder built for OpenStreetMap data. It is based on elasticsearch.
 * **<code>&nbsp;&nbsp;1607</code>** [Geotools](http://www.geotools.org/) - GeoTools is an open source Java library that provides tools for geospatial data.
@@ -621,24 +621,24 @@ with GNSS (global navigation satellite system).
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [MapFish Print](https://mapfish.github.io/mapfish-print-doc/) - The purpose of Mapfish Print is to create reports that contain maps (and map related components) within them. The project is a Java based servlet/library/application based on the mature Jasper Reports Library.
 
 ## JavaScript
-* **<code>&nbsp;39563</code>** [leaflet](http://leafletjs.com/) - Open-Source JavaScript Library for Mobile-Friendly Interactive Maps.
-* **<code>&nbsp;11588</code>** [CesiumJS](https://github.com/AnalyticalGraphicsInc/cesium) - An open-source JavaScript library for world-class 3D globes and maps.
-* **<code>&nbsp;11544</code>** [deck.gl](https://github.com/uber/deck.gl) - WebGL2 powered geospatial visualization layers.
-* **<code>&nbsp;10706</code>** [OpenLayers](http://openlayers.org/) - Open source AJAX library.
-* **<code>&nbsp;&nbsp;8662</code>** [Turf.js](http://turfjs.org/) - Advanced geospatial analysis for browsers and node.
-* **<code>&nbsp;&nbsp;7501</code>** [react-map-gl](https://github.com/uber/react-map-gl) - React friendly API wrapper around MapboxGL JS.
+* **<code>&nbsp;39571</code>** [leaflet](http://leafletjs.com/) - Open-Source JavaScript Library for Mobile-Friendly Interactive Maps.
+* **<code>&nbsp;11591</code>** [CesiumJS](https://github.com/AnalyticalGraphicsInc/cesium) - An open-source JavaScript library for world-class 3D globes and maps.
+* **<code>&nbsp;11548</code>** [deck.gl](https://github.com/uber/deck.gl) - WebGL2 powered geospatial visualization layers.
+* **<code>&nbsp;10707</code>** [OpenLayers](http://openlayers.org/) - Open source AJAX library.
+* **<code>&nbsp;&nbsp;8663</code>** [Turf.js](http://turfjs.org/) - Advanced geospatial analysis for browsers and node.
+* **<code>&nbsp;&nbsp;7502</code>** [react-map-gl](https://github.com/uber/react-map-gl) - React friendly API wrapper around MapboxGL JS.
 * **<code>&nbsp;&nbsp;7049</code>** [gmaps.js](https://github.com/hpneo/gmaps) - gmaps.js allows you to use the potential of Google Maps in a simple way. 
-* **<code>&nbsp;&nbsp;6122</code>** [Heatmap.js](https://www.patrick-wied.at/static/heatmapjs/) - A heatmap implementation for Javascript.
+* **<code>&nbsp;&nbsp;6123</code>** [Heatmap.js](https://www.patrick-wied.at/static/heatmapjs/) - A heatmap implementation for Javascript.
 * **<code>&nbsp;&nbsp;6010</code>** [SQLite3](https://github.com/mapbox/node-sqlite3) - Asynchronous, non-blocking SQLite3 bindings for Node.js.
-* **<code>&nbsp;&nbsp;5744</code>** [pixelmatch](https://github.com/mapbox/pixelmatch) - The smallest, simplest and fastest JavaScript pixel-level image comparison library. 
+* **<code>&nbsp;&nbsp;5745</code>** [pixelmatch](https://github.com/mapbox/pixelmatch) - The smallest, simplest and fastest JavaScript pixel-level image comparison library. 
 * **<code>&nbsp;&nbsp;4879</code>** [react-leaflet](https://github.com/PaulLeCam/react-leaflet) - React components for Leaflet maps.
 * **<code>&nbsp;&nbsp;2039</code>** [leaflet-providers](https://github.com/leaflet-extras/leaflet-providers) - An extension to Leaflet that contains configurations for various free tile providers.
 * **<code>&nbsp;&nbsp;1985</code>** [Supercluster](https://github.com/mapbox/supercluster) - A crazy fast geospatial point clustering library for browsers and Node.
-* **<code>&nbsp;&nbsp;1949</code>** [Vue2Leaflet](https://github.com/KoRiGaN/Vue2Leaflet) - Vue 2 components for Leaflet maps.
+* **<code>&nbsp;&nbsp;1950</code>** [Vue2Leaflet](https://github.com/KoRiGaN/Vue2Leaflet) - Vue 2 components for Leaflet maps.
 * **<code>&nbsp;&nbsp;1902</code>** [proj4js](https://github.com/proj4js/proj4js) - JavaScript library to transform coordinates from one coordinate system to another, including datum transformations.
-* **<code>&nbsp;&nbsp;1427</code>** [JSTS](https://github.com/bjornharrtell/jsts) - Port of the Java JTS library.
-* **<code>&nbsp;&nbsp;1267</code>** [procedural-gl-js](https://github.com/felixpalmer/procedural-gl-js) - Procedural GL JS is a library for creating 3D map experiences on the web, written in JavaScript and WebGL. It is built on top THREE.js.
-* **<code>&nbsp;&nbsp;1139</code>** [Geodesy](https://github.com/chrisveness/geodesy) - Libraries of geodesy functions implemented in JavaScript.
+* **<code>&nbsp;&nbsp;1428</code>** [JSTS](https://github.com/bjornharrtell/jsts) - Port of the Java JTS library.
+* **<code>&nbsp;&nbsp;1266</code>** [procedural-gl-js](https://github.com/felixpalmer/procedural-gl-js) - Procedural GL JS is a library for creating 3D map experiences on the web, written in JavaScript and WebGL. It is built on top THREE.js.
+* **<code>&nbsp;&nbsp;1140</code>** [Geodesy](https://github.com/chrisveness/geodesy) - Libraries of geodesy functions implemented in JavaScript.
 * **<code>&nbsp;&nbsp;1088</code>** [TerriaJS](https://github.com/TerriaJS/terriajs) - A library for building rich, web-based geospatial data explorers. 
 * **<code>&nbsp;&nbsp;&nbsp;873</code>** [mapbox-gl-draw](https://github.com/mapbox/mapbox-gl-draw) - Draw tools for mapbox-gl-js.
 * **<code>&nbsp;&nbsp;&nbsp;846</code>** [NASA WebWorldWind](https://github.com/NASAWorldWind/WebWorldWind) - The NASA WorldWind Javascript SDK (WebWW) includes the library and examples for creating geo-browser web applications and for embedding a 3D globe in HTML5 web pages.
@@ -651,8 +651,8 @@ with GNSS (global navigation satellite system).
 * **<code>&nbsp;&nbsp;&nbsp;422</code>** [leaflet TimeDimension](https://github.com/socib/Leaflet.TimeDimension) - Add time dimension capabilities on a Leaflet map.
 * **<code>&nbsp;&nbsp;&nbsp;397</code>** [Heatcanvas.js](https://github.com/sunng87/heatcanvas) - Yet another heatmap implementation for Javascript.
 * **<code>&nbsp;&nbsp;&nbsp;357</code>** [arc.js](https://github.com/springmeyer/arc.js) - Calculate great circles routes as lines in GeoJSON or WKT format.
-* **<code>&nbsp;&nbsp;&nbsp;328</code>** [Terra Draw](https://github.com/JamesLMilner/terra-draw) - A cross provider JavaScript library for drawing on maps
-* **<code>&nbsp;&nbsp;&nbsp;315</code>** [ui-leaflet](https://github.com/angular-ui/ui-leaflet) - AngularJS directive to embed an interact with maps managed by Leaflet library.
+* **<code>&nbsp;&nbsp;&nbsp;330</code>** [Terra Draw](https://github.com/JamesLMilner/terra-draw) - A cross provider JavaScript library for drawing on maps
+* **<code>&nbsp;&nbsp;&nbsp;316</code>** [ui-leaflet](https://github.com/angular-ui/ui-leaflet) - AngularJS directive to embed an interact with maps managed by Leaflet library.
 * **<code>&nbsp;&nbsp;&nbsp;307</code>** [Windshaft](https://github.com/CartoDB/Windshaft) - A Node.js map tile library for PostGIS and torque.js, with CartoCSS styling.
 * **<code>&nbsp;&nbsp;&nbsp;295</code>** [GeoPackage.js](https://github.com/ngageoint/geopackage-js) - GeoPackage JS is an implementation of the OGC GeoPackage spec. This library works in both the browser and Node 4+.
 * **<code>&nbsp;&nbsp;&nbsp;284</code>** [Bertin.js](https://github.com/neocarto/bertin) - A JavaScript library for visualizing geospatial data and make thematic maps for the web.
@@ -710,7 +710,7 @@ with GNSS (global navigation satellite system).
 * **<code>&nbsp;&nbsp;1671</code>** [DataFrames.jl](https://github.com/JuliaStats/DataFrames.jl) - Tools for working with tabular data in Julia.
 * **<code>&nbsp;&nbsp;&nbsp;518</code>** [Images.jl](https://github.com/JuliaImages/Images.jl) - An image processing library for Julia.
 * **<code>&nbsp;&nbsp;&nbsp;478</code>** [GeoStats.jl](https://github.com/JuliaEarth/GeoStats.jl) - An extensible framework for high-performance geostatistics in Julia.
-* **<code>&nbsp;&nbsp;&nbsp;388</code>** [NearestNeighbors.jl](https://github.com/KristofferC/NearestNeighbors.jl) - High performance nearest neighbor data structures and algorithms for Julia.
+* **<code>&nbsp;&nbsp;&nbsp;387</code>** [NearestNeighbors.jl](https://github.com/KristofferC/NearestNeighbors.jl) - High performance nearest neighbor data structures and algorithms for Julia.
 * **<code>&nbsp;&nbsp;&nbsp;222</code>** [DynamicGrids.jl](https://github.com/cesaraustralia/DynamicGrids.jl) - Generalised framework for building high-performance grid-based spatial simulations, including cellular automata, but also allowing a wider range of behaviours like random jumps and interactions between multiple grids. It is extended by Dispersal.jl for modelling organism dispersal processes.
 * **<code>&nbsp;&nbsp;&nbsp;191</code>** [GeoData.jl](https://github.com/rafaqz/Rasters.jl) - Standardising geospatial raster data in the Julia language.
 * **<code>&nbsp;&nbsp;&nbsp;180</code>** [GMT.jl](https://github.com/GenericMappingTools/GMT.jl) - Generic Mapping Tools Library Wrapper for Julia.
@@ -770,13 +770,13 @@ with GNSS (global navigation satellite system).
 
 ## Lua
 
-* **<code>&nbsp;&nbsp;4564</code>** [TerraME](http://www.terrame.org/doku.php) - TerraME is a programming environment for spatial dynamical modelling. It supports cellular automata, agent-based models, and network models running in 2D cell spaces.
+* **<code>&nbsp;&nbsp;4565</code>** [TerraME](http://www.terrame.org/doku.php) - TerraME is a programming environment for spatial dynamical modelling. It supports cellular automata, agent-based models, and network models running in 2D cell spaces.
 * **<code>&nbsp;&nbsp;&nbsp;146</code>** [geo.lua](https://github.com/RedisLabs/geo.lua) - A helper library for Redis geospatial indices.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;47</code>** [Tarantool/GIS](https://github.com/tarantool/gis) - A full-featured geospatial extension for Tarantool.
 
 ## MATLAB
 
-* **<code>&nbsp;&nbsp;&nbsp;150</code>** [ChangeDetectionToolbox](https://github.com/Bobholamovic/ChangeDetectionToolbox) - MATLAB Toolbox for Remote Sensing Change Detection.
+* **<code>&nbsp;&nbsp;&nbsp;151</code>** [ChangeDetectionToolbox](https://github.com/Bobholamovic/ChangeDetectionToolbox) - MATLAB Toolbox for Remote Sensing Change Detection.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;83</code>** [CCDC](https://github.com/GERSL/CCDC) - Algorithm developed for Continuous Change Detection and Classification (CCDC) of land cover using all available Landsat data.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;21</code>** [COLD](https://github.com/GERSL/COLD) - Algorithm for COntinuous monitoring of Land Disturbance (COLD) using Landsat time series.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;12</code>** [MFmask](https://github.com/qsly09/MFmask) - Automated cloud and cloud shadow detection for Landsats 4-8 images.
@@ -793,24 +793,24 @@ with GNSS (global navigation satellite system).
 
 ## Python
 
-* **<code>&nbsp;75745</code>** [GeoDjango](https://docs.djangoproject.com/en/2.2/ref/contrib/gis/) - Django geographic web framework.
-* **<code>&nbsp;13936</code>** [networkx](http://networkx.github.io/) - To work with networks.
-* **<code>&nbsp;13936</code>** [networkx](http://networkx.github.io/) - To work with networks.
-* **<code>&nbsp;&nbsp;7576</code>** [CuPy](https://github.com/cupy/cupy) - NumPy-like API accelerated with CUDA.
+* **<code>&nbsp;75758</code>** [GeoDjango](https://docs.djangoproject.com/en/2.2/ref/contrib/gis/) - Django geographic web framework.
+* **<code>&nbsp;13937</code>** [networkx](http://networkx.github.io/) - To work with networks.
+* **<code>&nbsp;13937</code>** [networkx](http://networkx.github.io/) - To work with networks.
+* **<code>&nbsp;&nbsp;7577</code>** [CuPy](https://github.com/cupy/cupy) - NumPy-like API accelerated with CUDA.
 * **<code>&nbsp;&nbsp;5787</code>** [Scikit-image](http://scikit-image.org/) - Scikit-image is a collection of algorithms for image processing.
 * **<code>&nbsp;&nbsp;4216</code>** [geopy](https://github.com/geopy/geopy) - geopy is a Python 2 and 3 client for several popular geocoding web services.
 * **<code>&nbsp;&nbsp;4072</code>** [GeoPandas](https://github.com/geopandas/geopandas) - Python tools for geographic data.
 * **<code>&nbsp;&nbsp;3597</code>** [Shapely](https://pypi.python.org/pypi/Shapely) - Manipulation and analysis of geometric objects in the Cartesian plane.
 * **<code>&nbsp;&nbsp;3597</code>** [Shapely](https://pypi.python.org/pypi/Shapely) - Manipulation and analysis of geometric objects in the Cartesian plane.
 * **<code>&nbsp;&nbsp;3596</code>** [som-tsp](https://github.com/DiegoVicen/som-tsp) - Solving the Traveling Salesman Problem using Self-Organizing Maps.
-* **<code>&nbsp;&nbsp;3439</code>** [Descartes](https://pypi.python.org/pypi/descartes) - Plot geometries in matplotlib.
-* **<code>&nbsp;&nbsp;3351</code>** [xarray](http://xarray.pydata.org/en/stable/) - xarray (formerly xray) is an open source project and Python package that aims to bring the labeled data power of pandas to the physical sciences, by providing N-dimensional variants of the core pandas data structures.
-* **<code>&nbsp;&nbsp;3097</code>** [geemap](https://github.com/giswqs/geemap) - A Python package for interactive mapping with Google Earth Engine, ipyleaflet, and ipywidgets.
-* **<code>&nbsp;&nbsp;2863</code>** [leafmap](https://github.com/giswqs/leafmap) - A Python package for geospatial analysis and interactive mapping with minimal coding in a Jupyter environment.
+* **<code>&nbsp;&nbsp;3438</code>** [Descartes](https://pypi.python.org/pypi/descartes) - Plot geometries in matplotlib.
+* **<code>&nbsp;&nbsp;3352</code>** [xarray](http://xarray.pydata.org/en/stable/) - xarray (formerly xray) is an open source project and Python package that aims to bring the labeled data power of pandas to the physical sciences, by providing N-dimensional variants of the core pandas data structures.
+* **<code>&nbsp;&nbsp;3098</code>** [geemap](https://github.com/giswqs/geemap) - A Python package for interactive mapping with Google Earth Engine, ipyleaflet, and ipywidgets.
+* **<code>&nbsp;&nbsp;2864</code>** [leafmap](https://github.com/giswqs/leafmap) - A Python package for geospatial analysis and interactive mapping with minimal coding in a Jupyter environment.
 * **<code>&nbsp;&nbsp;2097</code>** [Rasterio](https://github.com/mapbox/rasterio) - Rasterio employs GDAL under the hood for file I/O and raster formatting.
 * **<code>&nbsp;&nbsp;1574</code>** [Python Geocoder](https://github.com/DenisCarriere/geocoder) - Simple and consistent geocoding library written in Python.
 * **<code>&nbsp;&nbsp;1105</code>** [Fiona](https://fiona.readthedocs.io/en/latest/) - For making it easy to read/write geospatial data formats.
-* **<code>&nbsp;&nbsp;1101</code>** [MovingPandas](https://github.com/anitagraser/movingpandas) - Implementation of Trajectory classes and functions built on top of GeoPandas.
+* **<code>&nbsp;&nbsp;1103</code>** [MovingPandas](https://github.com/anitagraser/movingpandas) - Implementation of Trajectory classes and functions built on top of GeoPandas.
 * **<code>&nbsp;&nbsp;&nbsp;986</code>** [satpy](https://satpy.readthedocs.io/en/latest/) - Satpy is a python library for reading, manipulating, and writing data from remote-sensing earth-observing meteorological satellite instruments.
 * **<code>&nbsp;&nbsp;&nbsp;965</code>** [PyProj](https://github.com/jswhit/pyproj) - For conversions between projections.
 * **<code>&nbsp;&nbsp;&nbsp;951</code>** [sentinelsat](https://github.com/sentinelsat/sentinelsat) - Search and download Copernicus Sentinel satellite images.
@@ -819,12 +819,12 @@ with GNSS (global navigation satellite system).
 * **<code>&nbsp;&nbsp;&nbsp;758</code>** [xarray-spatial](https://github.com/makepath/xarray-spatial) - xarray-spatial implements common raster analysis functions using Numba and provides an easy-to-install, easy-to-extend codebase for raster analysis.
 * **<code>&nbsp;&nbsp;&nbsp;724</code>** [networkit](https://github.com/networkit/networkit) - NetworKit is a growing open-source toolkit for large-scale network analysis.
 * **<code>&nbsp;&nbsp;&nbsp;717</code>** [PyPostal](https://github.com/openvenues/pypostal) - Python bindings to libpostal for fast international address parsing/normalization.
-* **<code>&nbsp;&nbsp;&nbsp;700</code>** [PyKrige](https://github.com/GeoStat-Framework/PyKrige) - Kriging Toolkit for Python.
-* **<code>&nbsp;&nbsp;&nbsp;695</code>** [pyGMT](https://github.com/GenericMappingTools/pygmt) - Pythonic interface for the Generic Mapping Tools (GMT).
+* **<code>&nbsp;&nbsp;&nbsp;701</code>** [PyKrige](https://github.com/GeoStat-Framework/PyKrige) - Kriging Toolkit for Python.
+* **<code>&nbsp;&nbsp;&nbsp;696</code>** [pyGMT](https://github.com/GenericMappingTools/pygmt) - Pythonic interface for the Generic Mapping Tools (GMT).
 * **<code>&nbsp;&nbsp;&nbsp;689</code>** [Landsat-util](https://github.com/developmentseed/landsat-util) - Landsat-util is a command line utility that makes it easy to search, download, and process Landsat imagery.
 * **<code>&nbsp;&nbsp;&nbsp;681</code>** [scikit-mobility](https://github.com/scikit-mobility/scikit-mobility) - Mobility analysis in Python.
 * **<code>&nbsp;&nbsp;&nbsp;649</code>** [mapboxgl-jupyter](https://github.com/mapbox/mapboxgl-jupyter) - Use Mapbox GL JS to visualize data in a Python Jupyter notebook.
-* **<code>&nbsp;&nbsp;&nbsp;617</code>** [Open-Elevation](https://github.com/Jorl17/open-elevation) - A free and open-source alternative to Google Elevation API.
+* **<code>&nbsp;&nbsp;&nbsp;619</code>** [Open-Elevation](https://github.com/Jorl17/open-elevation) - A free and open-source alternative to Google Elevation API.
 * **<code>&nbsp;&nbsp;&nbsp;608</code>** [CoastSat](https://github.com/kvos/CoastSat) - CoastSat is an open-source software toolkit written in Python that enables users to obtain time-series of shoreline position at any coastline worldwide from 30+ years (and growing) of publicly available satellite imagery.
 * **<code>&nbsp;&nbsp;&nbsp;556</code>** [Verde](https://github.com/fatiando/verde) - Verde is a Python library for processing spatial data (bathymetry, geophysics surveys, etc) and interpolating it on regular grids (i.e., gridding).
 * **<code>&nbsp;&nbsp;&nbsp;533</code>** [cuSpatial](https://github.com/rapidsai/cuspatial) - GPU-Accelerated Spatial and Trajectory Data Management and Analytics Library.
@@ -833,7 +833,7 @@ with GNSS (global navigation satellite system).
 * **<code>&nbsp;&nbsp;&nbsp;505</code>** [Rasterstats](https://github.com/perrygeo/python-rasterstats/) - Python module for summarizing geospatial raster datasets based on vector geometries.
 * **<code>&nbsp;&nbsp;&nbsp;495</code>** [GSTools](https://github.com/GeoStat-Framework/GSTools) - A geostatistical toolbox: random fields, variogram estimation, covariance models, kriging and much more.
 * **<code>&nbsp;&nbsp;&nbsp;476</code>** [EarthPy](https://github.com/earthlab/earthpy) - A package built to support working with spatial data using open source python.
-* **<code>&nbsp;&nbsp;&nbsp;467</code>** [rio-tiler](https://github.com/mapbox/rio-tiler) - Get mercator tile from landsat, sentinel or other AWS hosted raster.
+* **<code>&nbsp;&nbsp;&nbsp;468</code>** [rio-tiler](https://github.com/mapbox/rio-tiler) - Get mercator tile from landsat, sentinel or other AWS hosted raster.
 * **<code>&nbsp;&nbsp;&nbsp;464</code>** [rioxarray](https://github.com/corteva/rioxarray) - rasterio xarray extension.
 * **<code>&nbsp;&nbsp;&nbsp;461</code>** [urbansim](https://github.com/UDST/urbansim) - New version of UrbanSim, a platform for modeling metropolitan real estate markets.
 * **<code>&nbsp;&nbsp;&nbsp;460</code>** [pyroSAR](https://github.com/johntruckenbrodt/pyroSAR) - A Python Framework for Large-Scale SAR Satellite Data Processing.
@@ -856,7 +856,7 @@ with GNSS (global navigation satellite system).
 * **<code>&nbsp;&nbsp;&nbsp;294</code>** [EOmaps](https://github.com/raphaelquast/EOmaps) - Create interactive maps to visualize, analyze and compare geographical datasets (based on matplotlib/cartopy). 
 * **<code>&nbsp;&nbsp;&nbsp;289</code>** [EODAG](https://eodag.readthedocs.io/en/latest/) - Command line tool and a plugin-oriented Python framework for searching, aggregating results and downloading remote sensed images while offering a unified API for data access regardless of the data provider.
 * **<code>&nbsp;&nbsp;&nbsp;282</code>** [rio-cogeo](https://github.com/mapbox/rio-cogeo) - CloudOptimized GeoTIFF creation plugin for rasterio.   
-* **<code>&nbsp;&nbsp;&nbsp;278</code>** [Open Topo Data](https://github.com/ajnisbet/opentopodata) - Open Topo Data is a REST API server for your elevation data.
+* **<code>&nbsp;&nbsp;&nbsp;279</code>** [Open Topo Data](https://github.com/ajnisbet/opentopodata) - Open Topo Data is a REST API server for your elevation data.
 * **<code>&nbsp;&nbsp;&nbsp;273</code>** [localtileserver](https://github.com/banesullivan/localtileserver) - A Python package for serving tiles from large raster files in the Slippy Maps standard (i.e., `/zoom/x/y.png`) for visualization in Jupyter with `ipyleaflet` or `folium`.
 * **<code>&nbsp;&nbsp;&nbsp;272</code>** [elevation](https://github.com/bopen/elevation) - Python script to download global terrain digital elevation models, SRTM 30m DEM and SRTM 90m DEM.
 * **<code>&nbsp;&nbsp;&nbsp;247</code>** [EOReader](https://github.com/sertit/eoreader) - EOReader is a multi-satellite reader allowing you to open optical and SAR data.
@@ -869,7 +869,7 @@ with GNSS (global navigation satellite system).
 * **<code>&nbsp;&nbsp;&nbsp;222</code>** [geosnap](https://github.com/spatialucr/geosnap) - geosnap makes it easier to explore, model, analyze, and visualize the social and spatial dynamics of neighborhoods.
 * **<code>&nbsp;&nbsp;&nbsp;221</code>** [Alpha Shape Toolbox](https://github.com/bellockk/alphashape) - Toolbox for constructing alpha shapes.
 * **<code>&nbsp;&nbsp;&nbsp;217</code>** [stackstac](https://github.com/gjoseph92/stackstac) - Turn a STAC catalog into a dask-based xarray.
-* **<code>&nbsp;&nbsp;&nbsp;210</code>** [lidar](https://github.com/giswqs/lidar) - Terrain and hydrological analysis using digital elevation models (DEMs).
+* **<code>&nbsp;&nbsp;&nbsp;211</code>** [lidar](https://github.com/giswqs/lidar) - Terrain and hydrological analysis using digital elevation models (DEMs).
 * **<code>&nbsp;&nbsp;&nbsp;208</code>** [Siphon](https://github.com/unidata/siphon) - A collection of Python utilities for retrieving atmospheric and oceanic data from remote sources, focusing on being able to retrieve data from Unidata data technologies, such as the THREDDS data server.
 * **<code>&nbsp;&nbsp;&nbsp;207</code>** [SciKit-Gstat](https://scikit-gstat.readthedocs.io/en/latest/) - SciKit-Gstat is a scipy-styled analysis module for variogram analysis.
 * **<code>&nbsp;&nbsp;&nbsp;201</code>** [Peartree](https://github.com/kuanb/peartree) - Peartree: A library for converting transit data into a directed graph for network analysis.
@@ -914,7 +914,7 @@ with GNSS (global navigation satellite system).
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;94</code>** [geojson-area](https://github.com/scisco/area) - Calculate the area inside of any GeoJSON geometry.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;94</code>** [geojson-area](https://github.com/scisco/area) - Calculate the area inside of any GeoJSON geometry. This is a port of Mapbox's geojson-area for Python.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;92</code>** [dask-rasterio](https://github.com/dymaxionlabs/dask-rasterio) - Read and write rasters in parallel using Rasterio and Dask.
-* **<code>&nbsp;&nbsp;&nbsp;&nbsp;89</code>** [osm2geojson](https://github.com/aspectumapp/osm2geojson) - Parse OpenStreetMap (OSM) XML and Overpass JSON/XML.
+* **<code>&nbsp;&nbsp;&nbsp;&nbsp;90</code>** [osm2geojson](https://github.com/aspectumapp/osm2geojson) - Parse OpenStreetMap (OSM) XML and Overpass JSON/XML.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;88</code>** [HyRiver](https://hyriver.readthedocs.io) - A suite of Python packages for retrieving various geospatial/temporal data from public web services.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;84</code>** [telluric](https://github.com/satellogic/telluric) - telluric is a Python library to manage vector and raster geospatial data in an interactive and easy way.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;83</code>** [Climata](https://github.com/heigeo/climata) - Python library for loading and iterating over climate and flow time series data (from ACIS/NOAA RCCs, CoCoRaHS, Hydromet/USBR, CNRFC ESP/NWS, SNOTEL/AWDB/NRCS, and NWIS/USGS).
@@ -968,7 +968,7 @@ with GNSS (global navigation satellite system).
 
 * **<code>&nbsp;&nbsp;1586</code>** [FreeGeoDB](https://github.com/delight-im/FreeGeoDB) - Free database of geographic place names and corresponding geospatial data.
 * **<code>&nbsp;&nbsp;&nbsp;847</code>** [GeoPHP](https://geophp.net/) - Advanced geometry operations in PHP.
-* **<code>&nbsp;&nbsp;&nbsp;291</code>** [geojson](https://github.com/jmikola/geojson) - GeoJSON implementation for PHP.
+* **<code>&nbsp;&nbsp;&nbsp;290</code>** [geojson](https://github.com/jmikola/geojson) - GeoJSON implementation for PHP.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;56</code>** [geospatial](https://github.com/php-geospatial/geospatial) - PHP Extension to handle common geospatial functions.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;49</code>** [laravel-geo](https://github.com/eleven-lab/laravel-geo) - GeoSpatial integration on Laravel 5.2+ that supports MySQL and PostgreSQL.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;26</code>** [shapefile](https://github.com/phpmyadmin/shapefile) - ESRI ShapeFile library for PHP.
@@ -981,8 +981,8 @@ with GNSS (global navigation satellite system).
 
 ## R
 
-* **<code>&nbsp;&nbsp;1981</code>** [rayshader](https://github.com/tylermorganwall/rayshader) - rayshader is an open source R package for producing 2D and 3D hillshaded maps of elevation matrices using a combination of raytracing, spherical texture mapping, and ambient occlusion.
-* **<code>&nbsp;&nbsp;1248</code>** [sf](https://github.com/r-spatial/sf) - Simple Features for R.
+* **<code>&nbsp;&nbsp;1982</code>** [rayshader](https://github.com/tylermorganwall/rayshader) - rayshader is an open source R package for producing 2D and 3D hillshaded maps of elevation matrices using a combination of raytracing, spherical texture mapping, and ambient occlusion.
+* **<code>&nbsp;&nbsp;1250</code>** [sf](https://github.com/r-spatial/sf) - Simple Features for R.
 * **<code>&nbsp;&nbsp;&nbsp;755</code>** [ggmap](https://cran.r-project.org/web/packages/ggmap/index.html) - Spatial Visualization with ggplot2.
 * **<code>&nbsp;&nbsp;&nbsp;750</code>** [geobr](https://github.com/ipeaGIT/geobr) - Package to download official spatial data sets of Brazil.
 * **<code>&nbsp;&nbsp;&nbsp;749</code>** [ranger](https://github.com/imbs-hl/ranger) - A Fast Implementation of Random Forests.
@@ -991,12 +991,12 @@ with GNSS (global navigation satellite system).
 * **<code>&nbsp;&nbsp;&nbsp;526</code>** [stars](https://github.com/r-spatial/stars) - Spatiotemporal tidy arrays for R.
 * **<code>&nbsp;&nbsp;&nbsp;505</code>** [terra](https://github.com/rspatial/terra) - terra is an R package that replaces raster. It has a very similar, but simpler, interface, and it is much faster.
 * **<code>&nbsp;&nbsp;&nbsp;423</code>** [sits](https://github.com/e-sensing/sits) - Satellite image time series package for R.
+* **<code>&nbsp;&nbsp;&nbsp;411</code>** [vegan](https://cran.r-project.org/web/packages/vegan/index.html) - Ordination methods, diversity analysis and other functions for community and vegetation ecologists.
 * **<code>&nbsp;&nbsp;&nbsp;410</code>** [stplanr](https://github.com/ropensci/stplanr) - Sustainable transport planning with R.
-* **<code>&nbsp;&nbsp;&nbsp;410</code>** [vegan](https://cran.r-project.org/web/packages/vegan/index.html) - Ordination methods, diversity analysis and other functions for community and vegetation ecologists.
 * **<code>&nbsp;&nbsp;&nbsp;394</code>** [wordcloud2](https://github.com/Lchiffon/wordcloud2) - R interface to wordcloud for data visualization.
 * **<code>&nbsp;&nbsp;&nbsp;392</code>** [cartography](https://github.com/riatelab/cartography) - Thematic Cartography with R.
-* **<code>&nbsp;&nbsp;&nbsp;362</code>** [ggspatial](https://github.com/paleolimbot/ggspatial) - A ggplot2 R extension for plotting Spatial* objects.
-* **<code>&nbsp;&nbsp;&nbsp;356</code>** [mapdeck](https://github.com/SymbolixAU/mapdeck) - R interface to Deck.gl and Mapbox.
+* **<code>&nbsp;&nbsp;&nbsp;361</code>** [ggspatial](https://github.com/paleolimbot/ggspatial) - A ggplot2 R extension for plotting Spatial* objects.
+* **<code>&nbsp;&nbsp;&nbsp;355</code>** [mapdeck](https://github.com/SymbolixAU/mapdeck) - R interface to Deck.gl and Mapbox.
 * **<code>&nbsp;&nbsp;&nbsp;321</code>** [rnoaa](https://github.com/ropensci/rnoaa) - R interface to many NOAA data sources.
 * **<code>&nbsp;&nbsp;&nbsp;318</code>** [sfnetworks](https://github.com/luukvdmeer/sfnetworks) - Tidy Geospatial Networks in R.
 * **<code>&nbsp;&nbsp;&nbsp;305</code>** [osmdata](https://github.com/ropensci/osmdata) - R package for downloading OpenStreetMap data.
@@ -1017,7 +1017,7 @@ with GNSS (global navigation satellite system).
 * **<code>&nbsp;&nbsp;&nbsp;154</code>** [climateR](https://github.com/mikejohnson51/climateR) - An R package for getting point and gridded climate data by AOI.
 * **<code>&nbsp;&nbsp;&nbsp;149</code>** [dggridR](https://cran.r-project.org/web/packages/dggridR/index.html) - Provides an interface to DGGRID for working with discrete global grids, using hexagons, triangles, and diamonds to overcome the issue that every bin have the same area.
 * **<code>&nbsp;&nbsp;&nbsp;149</code>** [geojsonio](https://cran.r-project.org/web/packages/geojsonio/index.html) - Convert data to 'GeoJSON' or 'TopoJSON' from various R classes, including vectors, lists, data frames, shape files, and spatial classes.
-* **<code>&nbsp;&nbsp;&nbsp;133</code>** [tidytransit](https://github.com/r-transit/tidytransit) - 'sf'-compatible package to analyze transit schedules, routes, and stops.
+* **<code>&nbsp;&nbsp;&nbsp;134</code>** [tidytransit](https://github.com/r-transit/tidytransit) - 'sf'-compatible package to analyze transit schedules, routes, and stops.
 * **<code>&nbsp;&nbsp;&nbsp;132</code>** [osmplotr](https://github.com/ropensci/osmplotr) - Data visualisation using OpenStreetMap objects.
 * **<code>&nbsp;&nbsp;&nbsp;124</code>** [sp](https://cran.r-project.org/web/packages/sp/index.html) - Classes and Methods for Spatial Data.
 * **<code>&nbsp;&nbsp;&nbsp;120</code>** [moveVis](https://github.com/16EAGLE/moveVis) - An R package providing tools to visualize movement data (e.g. from GPS tracking) and temporal changes of environmental data (e.g. from remote sensing) by creating video animations.
@@ -1032,7 +1032,7 @@ with GNSS (global navigation satellite system).
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;90</code>** [bfastSpatial](https://github.com/loicdtx/bfastSpatial) - Package to pre-process gridded time-series data in order for them to be analyzed with change detection algorithms such as bfast. Uses classes from the raster package and includes utilities to run the algorithms and post-process the results.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;88</code>** [tidync](https://github.com/hypertidy/tidync) - Systematic approaches to NetCDF data extraction, manipulation and visualization.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;86</code>** [openrouteservice-r](https://github.com/GIScience/openrouteservice-r) - R package to query openrouteservice.org.
-* **<code>&nbsp;&nbsp;&nbsp;&nbsp;86</code>** [mapscanner](https://github.com/ropensci/mapscanner) - R package to print maps, draw on them, and scan them back in.
+* **<code>&nbsp;&nbsp;&nbsp;&nbsp;85</code>** [mapscanner](https://github.com/ropensci/mapscanner) - R package to print maps, draw on them, and scan them back in.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;83</code>** [rasterVis](https://cran.r-project.org/web/packages/rasterVis/index.html) - Visualization Methods for Raster Data.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;79</code>** [geojsonsf](https://github.com/SymbolixAU/geojsonsf) - Conversion between sf and geojson.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;78</code>** [vapour](https://github.com/hypertidy/vapour) - A lightweight GDAL API package for R.
@@ -1226,7 +1226,7 @@ with GNSS (global navigation satellite system).
 
 ## Ruby
 
-* **<code>&nbsp;&nbsp;6261</code>** [Ruby Geocoder](http://www.rubygeocoder.com/) - Integration with geocoding services.
+* **<code>&nbsp;&nbsp;6263</code>** [Ruby Geocoder](http://www.rubygeocoder.com/) - Integration with geocoding services.
 * **<code>&nbsp;&nbsp;1614</code>** [Geokit](https://github.com/geokit/geokit) - A Ruby gem & Rails plugin for easier map-based applications.
 * **<code>&nbsp;&nbsp;&nbsp;990</code>** [Rgeo](https://github.com/rgeo/rgeo) - RGeo is a geospatial data library for Ruby. It provides an implementation of the Open Geospatial Consortium's Simple Features Specification
 * **<code>&nbsp;&nbsp;&nbsp;842</code>** [PostGIS ActiveRecord Adapter](https://github.com/rgeo/activerecord-postgis-adapter) - ActiveRecord adapter for PostGIS.
@@ -1242,17 +1242,17 @@ with GNSS (global navigation satellite system).
 
 ## Rust
 
-* **<code>&nbsp;&nbsp;7247</code>** [A/B Street](https://github.com/dabreegster/abstreet) - A traffic simulation game exploring how small changes to roads affect cyclists, transit users, pedestrians, and drivers.
-* **<code>&nbsp;&nbsp;1696</code>** [Martin](https://github.com/urbica/martin) - Martin is a PostGIS vector tiles server suitable for large databases. Martin is written in Rust using Actix web framework.
-* **<code>&nbsp;&nbsp;1361</code>** [rust-geo](https://github.com/georust/rust-geo) - Geospatial primitives and algorithms for Rust.
+* **<code>&nbsp;&nbsp;7249</code>** [A/B Street](https://github.com/dabreegster/abstreet) - A traffic simulation game exploring how small changes to roads affect cyclists, transit users, pedestrians, and drivers.
+* **<code>&nbsp;&nbsp;1700</code>** [Martin](https://github.com/urbica/martin) - Martin is a PostGIS vector tiles server suitable for large databases. Martin is written in Rust using Actix web framework.
+* **<code>&nbsp;&nbsp;1362</code>** [rust-geo](https://github.com/georust/rust-geo) - Geospatial primitives and algorithms for Rust.
 * **<code>&nbsp;&nbsp;1214</code>** [maplibre-rs](https://github.com/maplibre/maplibre-rs) - About Native Maps for Web, Mobile and Desktop.
 * **<code>&nbsp;&nbsp;&nbsp;865</code>** [WhiteboxTools](https://github.com/jblindsay/whitebox-tools) - An advanced geospatial data analysis platform.
 * **<code>&nbsp;&nbsp;&nbsp;334</code>** [rstar](https://github.com/georust/rstar) - R*-tree library for the rust ecosystem.
-* **<code>&nbsp;&nbsp;&nbsp;307</code>** [rust-gdal](https://github.com/georust/rust-gdal) - Rust bindings for GDAL.
+* **<code>&nbsp;&nbsp;&nbsp;308</code>** [rust-gdal](https://github.com/georust/rust-gdal) - Rust bindings for GDAL.
 * **<code>&nbsp;&nbsp;&nbsp;252</code>** [Hecate](https://github.com/mapbox/Hecate) - Fast Geospatial Feature Storage API.
 * **<code>&nbsp;&nbsp;&nbsp;243</code>** [rust-geojson](https://github.com/georust/rust-geojson) - Library for serializing the GeoJSON vector GIS file format.
 * **<code>&nbsp;&nbsp;&nbsp;203</code>** [kdtree-rs](https://github.com/mrhooray/kdtree-rs) - K-dimensional tree in Rust for fast geospatial indexing and nearest neighbors lookup.
-* **<code>&nbsp;&nbsp;&nbsp;152</code>** [geoarrow-rs](https://github.com/kylebarron/geoarrow-rs) - GeoArrow in Rust and WebAssembly with vectorized geometry operations.
+* **<code>&nbsp;&nbsp;&nbsp;153</code>** [geoarrow-rs](https://github.com/kylebarron/geoarrow-rs) - GeoArrow in Rust and WebAssembly with vectorized geometry operations.
 * **<code>&nbsp;&nbsp;&nbsp;136</code>** [rgeometry](https://github.com/rgeometry/rgeometry) - Computational Geometry library written in Rust.
 * **<code>&nbsp;&nbsp;&nbsp;120</code>** [rust-proj](https://github.com/georust/rust-proj) - Rust bindings for Proj.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;99</code>** [rust-geos](https://github.com/georust/geos) - Rust bindings for GEOS C API.
@@ -1291,12 +1291,12 @@ with GNSS (global navigation satellite system).
 
 ## Mobile Development
 
-* **<code>&nbsp;&nbsp;8126</code>** [Organic Maps](https://github.com/organicmaps/organicmaps) - Organic Maps is a better fork of MAPS.ME, an Android & iOS offline maps app for travelers, tourists, hikers, and cyclists based on top of crowd-sourced OpenStreetMap data and curated with love by MAPS.ME founders. No ads, no tracking, no data collection, no crapware.
-* **<code>&nbsp;&nbsp;4533</code>** [MAPS.ME](https://github.com/mapsme/omim) - MAPS.ME — Offline OpenStreetMap maps for iOS and Android.
+* **<code>&nbsp;&nbsp;8130</code>** [Organic Maps](https://github.com/organicmaps/organicmaps) - Organic Maps is a better fork of MAPS.ME, an Android & iOS offline maps app for travelers, tourists, hikers, and cyclists based on top of crowd-sourced OpenStreetMap data and curated with love by MAPS.ME founders. No ads, no tracking, no data collection, no crapware.
+* **<code>&nbsp;&nbsp;4532</code>** [MAPS.ME](https://github.com/mapsme/omim) - MAPS.ME — Offline OpenStreetMap maps for iOS and Android.
 * **<code>&nbsp;&nbsp;2597</code>** [flutter_map](https://github.com/fleaflet/flutter_map) - A Dart implementation of Leaflet for Flutter apps.
 * **<code>&nbsp;&nbsp;&nbsp;779</code>** [MapLibre GL Native](https://github.com/maplibre/maplibre-gl-native) - The open-source alternative to Mapbox GL Native. SDKs for iOS, Android and other platforms
 * **<code>&nbsp;&nbsp;&nbsp;604</code>** [mapbox-navigation-android](https://github.com/mapbox/mapbox-navigation-android) - Mapbox Navigation SDK for Android.
-* **<code>&nbsp;&nbsp;&nbsp;403</code>** [Mapbox Android SDK](https://www.mapbox.com/android-sdk/) - An open source toolset for building mapping applications for Android devices.
+* **<code>&nbsp;&nbsp;&nbsp;402</code>** [Mapbox Android SDK](https://www.mapbox.com/android-sdk/) - An open source toolset for building mapping applications for Android devices.
 * **<code>&nbsp;&nbsp;&nbsp;401</code>** [Mapbox iOS SDK](https://www.mapbox.com/ios-sdk/) - An open source toolset for building mapping applications for iPhone and iPad devices.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5</code>** [XaMaps](https://github.com/AlexPshul/XaMaps) - Xamarin + Azure Maps.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3</code>** [XFAzureMapTrials](https://github.com/Druffl3/XFAzureMapTrials) - Use Azure Maps REST APIs with Xamarin.Forms.
@@ -1319,25 +1319,25 @@ with GNSS (global navigation satellite system).
 
 ## Visualization 
 
-* **<code>&nbsp;97623</code>** [three.js](https://threejs.org/) - A javascript 3D library which makes WebGL simpler
-* **<code>&nbsp;20664</code>** [P5.js](https://p5js.org/) - Javascript library that starts with the original goal of Processing.
-* **<code>&nbsp;&nbsp;8414</code>** [Skia](https://skia.org/) - Skia is a complete 2D graphic library for drawing Text, Geometries, and Images.
-* **<code>&nbsp;&nbsp;7086</code>** [Blender GIS](https://github.com/domlysz/BlenderGIS) - Blender addons to make the bridge between Blender and geographic data.
-* **<code>&nbsp;&nbsp;6599</code>** [Folium](https://github.com/python-visualization/folium) - Python Data. Leaflet.js Maps.
+* **<code>&nbsp;97640</code>** [three.js](https://threejs.org/) - A javascript 3D library which makes WebGL simpler
+* **<code>&nbsp;20667</code>** [P5.js](https://p5js.org/) - Javascript library that starts with the original goal of Processing.
+* **<code>&nbsp;&nbsp;8417</code>** [Skia](https://skia.org/) - Skia is a complete 2D graphic library for drawing Text, Geometries, and Images.
+* **<code>&nbsp;&nbsp;7087</code>** [Blender GIS](https://github.com/domlysz/BlenderGIS) - Blender addons to make the bridge between Blender and geographic data.
+* **<code>&nbsp;&nbsp;6600</code>** [Folium](https://github.com/python-visualization/folium) - Python Data. Leaflet.js Maps.
 * **<code>&nbsp;&nbsp;5214</code>** [Cinder](https://libcinder.org/) - Cinder is a free and open source library for professional-quality creative coding in C++.
-* **<code>&nbsp;&nbsp;3929</code>** [PlotJuggler](https://github.com/facontidavide/PlotJuggler) - PlotJuggler is a tool to visualize time series that is fast, powerful and intuitive.
-* **<code>&nbsp;&nbsp;2542</code>** [tippecanoe](https://github.com/mapbox/tippecanoe) - Build vector tilesets from large collections of GeoJSON features.
-* **<code>&nbsp;&nbsp;1267</code>** [procedural-gl-js](https://github.com/felixpalmer/procedural-gl-js) - Procedural GL JS is a library for creating 3D map experiences on the web, written in JavaScript and WebGL. It is built on top THREE.js.
-* **<code>&nbsp;&nbsp;1255</code>** [Processing](https://processing.org/) - Processing is a flexible software sketchbook and a language for learning how to code within the context of the visual arts.
+* **<code>&nbsp;&nbsp;3930</code>** [PlotJuggler](https://github.com/facontidavide/PlotJuggler) - PlotJuggler is a tool to visualize time series that is fast, powerful and intuitive.
+* **<code>&nbsp;&nbsp;2544</code>** [tippecanoe](https://github.com/mapbox/tippecanoe) - Build vector tilesets from large collections of GeoJSON features.
+* **<code>&nbsp;&nbsp;1266</code>** [procedural-gl-js](https://github.com/felixpalmer/procedural-gl-js) - Procedural GL JS is a library for creating 3D map experiences on the web, written in JavaScript and WebGL. It is built on top THREE.js.
+* **<code>&nbsp;&nbsp;1256</code>** [Processing](https://processing.org/) - Processing is a flexible software sketchbook and a language for learning how to code within the context of the visual arts.
 * **<code>&nbsp;&nbsp;1107</code>** [geoplot](https://github.com/ResidentMario/geoplot) -  High-level Python geospatial plotting library. It's an extension to cartopy and matplotlib which makes mapping easy.
 * **<code>&nbsp;&nbsp;&nbsp;927</code>** [circlize](https://github.com/jokergoo/circlize) - Circular visualization in R. Circular layout is an efficient way for the visualization of huge amounts of information. 
-* **<code>&nbsp;&nbsp;&nbsp;700</code>** [Kosmtik](https://github.com/kosmtik/kosmtik) - Very lite but extendable mapping framework to create Mapnik ready maps with OpenStreetMap data (and more).
+* **<code>&nbsp;&nbsp;&nbsp;701</code>** [Kosmtik](https://github.com/kosmtik/kosmtik) - Very lite but extendable mapping framework to create Mapnik ready maps with OpenStreetMap data (and more).
 * **<code>&nbsp;&nbsp;&nbsp;593</code>** [Peak map](https://github.com/anvaka/peak-map) - Allows you to visualize elevation of any area on the map with filled area charts.
 * **<code>&nbsp;&nbsp;&nbsp;554</code>** [GeoViews](https://github.com/holoviz/geoviews) - GeoViews is a Python library that makes it easy to explore and visualize any data that includes geographic locations.
 * **<code>&nbsp;&nbsp;&nbsp;520</code>** [mplleaflet](https://github.com/jwass/mplleaflet) - Easily convert matplotlib plots from Python into interactive Leaflet web maps.
-* **<code>&nbsp;&nbsp;&nbsp;476</code>** [Strava](https://github.com/marcusvolz/strava) - Create artistic visualisations with your exercise data.
+* **<code>&nbsp;&nbsp;&nbsp;477</code>** [Strava](https://github.com/marcusvolz/strava) - Create artistic visualisations with your exercise data.
 * **<code>&nbsp;&nbsp;&nbsp;426</code>** [GeoJs](https://github.com/OpenGeoscience/geojs) - High-performance visualization and interactive data exploration of scientific and geospatial location aware datasets.
-* **<code>&nbsp;&nbsp;&nbsp;356</code>** [mapdeck](https://github.com/SymbolixAU/mapdeck) - R interface to Deck.gl and Mapbox.
+* **<code>&nbsp;&nbsp;&nbsp;355</code>** [mapdeck](https://github.com/SymbolixAU/mapdeck) - R interface to Deck.gl and Mapbox.
 * **<code>&nbsp;&nbsp;&nbsp;275</code>** [PostGIS Preview](https://github.com/NYCPlanning/labs-postgis-preview) - A lightweight node api and frontend for quickly previewing PostGIS queries. 
 * **<code>&nbsp;&nbsp;&nbsp;228</code>** [bv](https://github.com/daleroberts/bv) - bv is a small tool to quickly view high-resolution multi-band imagery directly in your iTerm 2.
 * **<code>&nbsp;&nbsp;&nbsp;109</code>** [Go Cart](https://github.com/Flow-Based-Cartograms/go_cart) - Fast cartogram generator written in C.
@@ -1366,10 +1366,10 @@ with GNSS (global navigation satellite system).
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [GrADS](http://cola.gmu.edu/grads/) - The Grid Analysis and Display System (GrADS) is an interactive desktop tool that is used for easy access, manipulation, and visualization of earth science data.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [CODA](http://stcorp.github.io/coda/doc/html/index.html) - The Common Data Access toolbox (CODA) provides a set of tools for ingesting, processing, and analyzing remote sensing data.
 for geospatial and tabular data. 
-* **<code>&nbsp;&nbsp;3979</code>** [Open Location Code](https://github.com/google/open-location-code) - Open Location Code is a library to generate short codes, called "plus codes", that can be used as digital addresses where street addresses don't exist.
+* **<code>&nbsp;&nbsp;3980</code>** [Open Location Code](https://github.com/google/open-location-code) - Open Location Code is a library to generate short codes, called "plus codes", that can be used as digital addresses where street addresses don't exist.
 * **<code>&nbsp;&nbsp;3550</code>** [MapShaper](http://mapshaper.org/) - Tools for editing Shapefile, GeoJSON, TopoJSON and CSV files.
 * **<code>&nbsp;&nbsp;3237</code>** [Mapus](https://github.com/alyssaxuu/mapus) - Mapus is a tool to explore and annotate collaboratively on a map.
-* **<code>&nbsp;&nbsp;1423</code>** [Osm2pgsql](https://github.com/openstreetmap/osm2pgsql) - osm2pgsql is a tool for loading OpenStreetMap data into a PostgreSQL.
+* **<code>&nbsp;&nbsp;1424</code>** [Osm2pgsql](https://github.com/openstreetmap/osm2pgsql) - osm2pgsql is a tool for loading OpenStreetMap data into a PostgreSQL.
 * **<code>&nbsp;&nbsp;1092</code>** [Planetiler](https://github.com/onthegomap/planetiler) - Flexible tool to build planet-scale vector tilesets from OpenStreetMap data in a few hours.
 * **<code>&nbsp;&nbsp;&nbsp;289</code>** [eodag](https://github.com/CS-SI/eodag) - Command line tool and a plugin-oriented Python framework for searching, aggregating results and downloading remote sensed images while offering a unified API for data access regardless of the data provider.
 * **<code>&nbsp;&nbsp;&nbsp;272</code>** [veins](https://github.com/sommer/veins) - Open source vehicular network simulation framework.
@@ -1418,8 +1418,8 @@ for geospatial and tabular data.
 
 ## Resources
 
-* **<code>&nbsp;&nbsp;&nbsp;682</code>** [GeoParquet](https://github.com/opengeospatial/geoparquet) - Specification for storing geospatial vector data (point, line, polygon) in Parquet.
-* **<code>&nbsp;&nbsp;&nbsp;334</code>** [Geopython](https://github.com/urschrei/Geopython) - Notebooks and libraries for spatial/geo Python explorations.
+* **<code>&nbsp;&nbsp;&nbsp;683</code>** [GeoParquet](https://github.com/opengeospatial/geoparquet) - Specification for storing geospatial vector data (point, line, polygon) in Parquet.
+* **<code>&nbsp;&nbsp;&nbsp;335</code>** [Geopython](https://github.com/urschrei/Geopython) - Notebooks and libraries for spatial/geo Python explorations.
 * **<code>&nbsp;&nbsp;&nbsp;105</code>** [Cloud Optimized Point Cloud Specification](https://github.com/copcio/copcio.github.io) - Geospatial, compressed, range-readable, LAZ-compatible point cloud format.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;35</code>** [LOLManuscriptMonday](https://github.com/ladiesoflandsat/LOLManuscriptMonday) - Hold the links to the Ladies of Landsat Manuscript Monday series.
 * **<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code>** [Cartographical Map Projections](http://www.progonos.com/furuti/MapProj/Normal/TOC/cartTOC.html) - A good introduction to projected coordinate systems.
@@ -1468,24 +1468,24 @@ for geospatial and tabular data.
 
 ## References and other awesome lists
 
-* **<code>198895</code>** [Awesome Python](https://github.com/vinta/awesome-python/blob/master/README.md)
-* **<code>&nbsp;19556</code>** [Awesome Computer Vision](https://github.com/jbhuang0604/awesome-computer-vision)
-* **<code>&nbsp;10516</code>** [Awesome Deep Vision](https://github.com/kjw0612/awesome-deep-vision)
-* **<code>&nbsp;10240</code>** [Awesome Semantic Segmentation](https://github.com/mrgloom/awesome-semantic-segmentation)
-* **<code>&nbsp;&nbsp;7489</code>** [satellite-image-deep-learning](https://github.com/robmarkcole/satellite-image-deep-learning)
+* **<code>199014</code>** [Awesome Python](https://github.com/vinta/awesome-python/blob/master/README.md)
+* **<code>&nbsp;19559</code>** [Awesome Computer Vision](https://github.com/jbhuang0604/awesome-computer-vision)
+* **<code>&nbsp;10518</code>** [Awesome Deep Vision](https://github.com/kjw0612/awesome-deep-vision)
+* **<code>&nbsp;10239</code>** [Awesome Semantic Segmentation](https://github.com/mrgloom/awesome-semantic-segmentation)
+* **<code>&nbsp;&nbsp;7492</code>** [satellite-image-deep-learning](https://github.com/robmarkcole/satellite-image-deep-learning)
 * **<code>&nbsp;&nbsp;7234</code>** [Awesome Object Detection](https://github.com/amusi/awesome-object-detection)
-* **<code>&nbsp;&nbsp;4029</code>** [Awesome GIS - sshuair](https://github.com/sshuair/awesome-gis)
-* **<code>&nbsp;&nbsp;3423</code>** [Awesome Satellite Imagery Datasets](https://github.com/chrieke/awesome-satellite-imagery-datasets)
-* **<code>&nbsp;&nbsp;2178</code>** [Vector Tiles](https://github.com/mapbox/awesome-vector-tiles)
-* **<code>&nbsp;&nbsp;2131</code>** [GeoJSON](https://github.com/tmcw/awesome-geojson)
+* **<code>&nbsp;&nbsp;4030</code>** [Awesome GIS - sshuair](https://github.com/sshuair/awesome-gis)
+* **<code>&nbsp;&nbsp;3425</code>** [Awesome Satellite Imagery Datasets](https://github.com/chrieke/awesome-satellite-imagery-datasets)
+* **<code>&nbsp;&nbsp;2179</code>** [Vector Tiles](https://github.com/mapbox/awesome-vector-tiles)
+* **<code>&nbsp;&nbsp;2132</code>** [GeoJSON](https://github.com/tmcw/awesome-geojson)
 * **<code>&nbsp;&nbsp;1084</code>** [Awesome-EarthObservation-Code](https://github.com/acgeospatial/awesome-earthobservation-code)
-* **<code>&nbsp;&nbsp;&nbsp;848</code>** [Awesome SAR](https://github.com/RadarCODE/awesome-sar)
+* **<code>&nbsp;&nbsp;&nbsp;846</code>** [Awesome SAR](https://github.com/RadarCODE/awesome-sar)
 * **<code>&nbsp;&nbsp;&nbsp;727</code>** [Awesome Spectral Indices](https://github.com/awesome-spectral-indices/awesome-spectral-indices)
-* **<code>&nbsp;&nbsp;&nbsp;521</code>** [Awesome Sentinel](https://github.com/Fernerkundung/awesome-sentinel)
+* **<code>&nbsp;&nbsp;&nbsp;520</code>** [Awesome Sentinel](https://github.com/Fernerkundung/awesome-sentinel)
 * **<code>&nbsp;&nbsp;&nbsp;401</code>** [Digital Earth Australia notebooks and tools repository](https://github.com/GeoscienceAustralia/dea-notebooks) 
-* **<code>&nbsp;&nbsp;&nbsp;304</code>** [Awesome DEM](https://github.com/DahnJ/Awesome-DEM) - Overview of Digital Elevation Model (DEM) datasets.
-* **<code>&nbsp;&nbsp;&nbsp;276</code>** [Awesome SQLite](https://github.com/planetopendata/awesome-sqlite) 
-* **<code>&nbsp;&nbsp;&nbsp;227</code>** [Awesome Geo Rust](https://github.com/pka/awesome-georust)
+* **<code>&nbsp;&nbsp;&nbsp;305</code>** [Awesome DEM](https://github.com/DahnJ/Awesome-DEM) - Overview of Digital Elevation Model (DEM) datasets.
+* **<code>&nbsp;&nbsp;&nbsp;277</code>** [Awesome SQLite](https://github.com/planetopendata/awesome-sqlite) 
+* **<code>&nbsp;&nbsp;&nbsp;228</code>** [Awesome Geo Rust](https://github.com/pka/awesome-georust)
 * **<code>&nbsp;&nbsp;&nbsp;198</code>** [Awesome Spatial](https://github.com/RoboDonut/awesome-spatial/blob/master/README.md)
 * **<code>&nbsp;&nbsp;&nbsp;137</code>** [Awesome Earth Engine Apps](https://github.com/philippgaertner/awesome-earth-engine-apps)
 * **<code>&nbsp;&nbsp;&nbsp;113</code>** [Cartography / mapping / web design resources](https://github.com/tolomaps/resources)
